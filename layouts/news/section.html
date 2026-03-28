@@ -1,0 +1,90 @@
+{{ define "main" }}
+  {{ $kind := .Params.archiveKind }}
+
+  {{ if eq $kind "news-archive" }}
+    {{ $pages := (where site.RegularPages "Section" "news").ByDate.Reverse }}
+    <header class="page-header">
+      <p class="eyebrow">Archive</p>
+      <h1>{{ .Title }}</h1>
+      <p>All stories, grouped by year and month.</p>
+    </header>
+
+    {{ $paginator := .Paginate $pages (default 24 .Site.Params.archivePageSize) }}
+    <div class="story-list">
+      {{ range $paginator.Pages }}
+        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+
+    <section class="archive-groups">
+      <h2>Browse by month</h2>
+      {{ range $pages.GroupByDate "2006" }}
+        <div class="archive-year">
+          <h3>{{ .Key }}</h3>
+          <ul class="archive-months">
+            {{ range .Pages.GroupByDate "01" }}
+              {{ $first := index .Pages 0 }}
+              {{ $monthPage := site.GetPage (printf "/news/%s/%s" ($first.Date.Format "2006") ($first.Date.Format "01")) }}
+              <li>
+                {{ if $monthPage }}
+                  <a href="{{ $monthPage.RelPermalink }}">{{ $first.Date.Format "January" }}</a>
+                {{ else }}
+                  <span>{{ $first.Date.Format "January" }}</span>
+                {{ end }}
+                <span>({{ len .Pages }})</span>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+    </section>
+
+  {{ else if eq $kind "news-year" }}
+    {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
+    <header class="page-header">
+      <p class="eyebrow">Year archive</p>
+      <h1>{{ .Title }}</h1>
+      <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} in this year.</p>
+    </header>
+
+    <section class="archive-groups">
+      <h2>Months</h2>
+      <ul class="archive-months months-grid">
+        {{ range .Sections.ByDate.Reverse }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span>({{ len .RegularPagesRecursive }})</span></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <div class="story-list">
+      {{ range $pages }}
+        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+      {{ end }}
+    </div>
+
+  {{ else if eq $kind "news-month" }}
+    {{ $pages := .RegularPages.ByDate.Reverse }}
+    <header class="page-header">
+      <p class="eyebrow">Month archive</p>
+      <h1>{{ .Title }}</h1>
+      <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} in this month.</p>
+    </header>
+    <div class="story-list">
+      {{ range $pages }}
+        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+      {{ end }}
+    </div>
+
+  {{ else }}
+    {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="story-list">
+      {{ range $pages }}
+        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

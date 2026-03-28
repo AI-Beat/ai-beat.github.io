@@ -1,0 +1,45 @@
+{{ define "main" }}
+  {{ $count := default 9 .Site.Params.latestCount }}
+  {{ $pages := first $count ((where site.RegularPages "Section" "news").ByDate.Reverse) }}
+  {{ $hero := index $pages 0 }}
+  {{ $secondary := after 1 $pages }}
+
+  <section class="hero-grid">
+    {{ with $hero }}
+      <article class="hero-card">
+        <p class="eyebrow">Latest AI news</p>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <p class="hero-summary">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
+        <div class="story-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+          {{ with .Params.author }}<span>· {{ . }}</span>{{ end }}
+        </div>
+      </article>
+    {{ end }}
+
+    <aside class="hero-side">
+      <h2>Recent headlines</h2>
+      <ul class="headline-list">
+        {{ range first 4 $secondary }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+          </li>
+        {{ end }}
+      </ul>
+      <a class="archive-link" href="{{ "/news/" | relURL }}">Open full archive →</a>
+    </aside>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <h2>Latest stories</h2>
+      <a href="{{ "/news/" | relURL }}">All archives</a>
+    </div>
+    <div class="story-grid">
+      {{ range $secondary }}
+        {{ partial "story-card.html" (dict "page" . "heading" 3) }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

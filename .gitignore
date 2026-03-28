@@ -1,0 +1,30 @@
+# Hugo lock file
+.hugo_build.lock
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Generic backups and temp files
+*~
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Vim / Neovim swap and session leftovers
+*.swp
+*.swo
+*.swn
+*.swm
+*.swx
+Session.vim
+
+# Emacs and other editor autosaves
+\#*\#
+.\#*
+
+# JetBrains and VS Code project settings
+.idea/
+.vscode/

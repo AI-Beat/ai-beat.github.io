@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <div>
+      <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Params.siteName }}</a>
+      <p class="tagline">{{ .Site.Params.tagline }}</p>
+    </div>
+    <nav class="nav">
+      <a href="{{ "/" | relURL }}">Latest</a>
+      <a href="{{ "/news/" | relURL }}">Archive</a>
+    </nav>
+  </div>
+</header>

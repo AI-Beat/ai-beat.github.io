@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <header class="page-header">
+    <p class="eyebrow">Taxonomy</p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  <div class="story-list">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+    {{ end }}
+  </div>
+{{ end }}

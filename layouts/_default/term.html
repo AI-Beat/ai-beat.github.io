@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <header class="page-header">
+    <p class="eyebrow">Topic</p>
+    <h1>{{ .Title }}</h1>
+    <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}story{{ else }}stories{{ end }} tagged here.</p>
+  </header>
+  <div class="story-list">
+    {{ range .Pages.ByDate.Reverse }}
+      {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <article class="single-article">
+    <header class="article-header">
+      <p class="eyebrow">{{ .Section | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+      <div class="story-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+        {{ with .Params.author }}<span>· {{ . }}</span>{{ end }}
+      </div>
+    </header>
+
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+
+    <nav class="article-nav">
+      <a href="{{ "/news/" | relURL }}">← Back to archive</a>
+    </nav>
+  </article>
+{{ end }}
