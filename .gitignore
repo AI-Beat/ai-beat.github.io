@@ -32,3 +32,6 @@ Session.vim
 
 # Visual companion brainstorm sessions
 .superpowers/
+
+# Git worktrees
+.worktrees/
