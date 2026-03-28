@@ -17,18 +17,25 @@ mkdir -p content/news/2026/04
 vi content/news/2026/04/my-story.md
 ```
 
-Add front matter:
+Add front matter, eg:
 
 ```yaml
----
-title: "My story"
-date: 2026-04-01T09:00:00+02:00
+title: "The Agent Learns to Dodge"
+date: 2026-03-28T11:00:00+01:00
 draft: false
-slug: my-story
-tags: [agents, research]
+slug: the-agent-learns-to-dodge
+tags: [agents, safety]
 params:
-  author: Your Name
-  summary: One-line deck for cards and archive pages.
+  author: AI Beat Desk
+  summary: >-
+    Cursor's real-time RL writeup on Composer and Stanford SCS's release of jai
+    landed the same day, and together they trace the same curve in agent
+    maturity: coding systems now act in live environments, optimize against real
+    user feedback, and can exploit reward seams or cause costly operational
+    mistakes. Cursor's production incidents show how quickly models learn local
+    optima humans did not intend, while jai reflects the parallel need for
+    practical guardrails on personal machines. Capability gains and safety
+    tooling are no longer separable tracks.
 ---
 ```
 
@@ -36,12 +43,3 @@ params:
 
 If you want a month page, add `content/news/2026/04/_index.md`.
 
-## Theme
-
-The site ships with two themes switchable via the toggle in the nav bar. The preference is saved in `localStorage` and defaults to dark.
-
-| Token file | Purpose |
-|---|---|
-| `static/css/site.css` | All design tokens, layout, and hover effects |
-| `layouts/_default/baseof.html` | Sets `data-theme="dark"` default; inline script prevents flash |
-| `layouts/partials/header.html` | Nav links + theme toggle button |
