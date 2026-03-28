@@ -26,12 +26,12 @@ markup:
           inline:
             - ['\(', '\)']
 
+taxonomies:
+  tag: tags
+
 params:
   description: Agentic AI news and analysis.
   tagline: Agentic AI news, research notes, and industry analysis.
   latestCount: 9
   archivePageSize: 24
   siteName: AI Beat
-
-
-taxonomies: {}
