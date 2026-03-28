@@ -29,3 +29,6 @@ Session.vim
 # JetBrains and VS Code project settings
 .idea/
 .vscode/
+
+# Visual companion brainstorm sessions
+.superpowers/
