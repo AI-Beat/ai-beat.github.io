@@ -1,0 +1,9 @@
+# AI Headlines — 2026-03-26
+
+- [ARC-AGI-3: First interactive reasoning benchmark for AI agents](https://arcprize.org/arc-agi/3) — 1,000+ turn-based game environments with no instructions or stated win conditions; agents must discover rules and objectives; best AI scored 12.58% in preview vs. human baseline of 100%; frontier LLMs scored under 1%; top performers were non-LLM graph search and CNN-based agents. *(March 25)*
+
+- [LiteLLM 1.82.7 and 1.82.8 compromised in PyPI supply chain attack](https://futuresearch.ai/blog/litellm-pypi-supply-chain-attack/) — TeamPCP threat group hacked a maintainer's PyPI account; malicious `.pth` file auto-executes on every Python startup and harvests SSH keys, cloud credentials (AWS/GCP/Azure), K8s configs, `.env` files, and crypto wallets; exfiltrates to `models.litellm.cloud`; linked to earlier Trivy breach; discovered by FutureSearch when Cursor MCP plugin pulled it as transitive dependency and triggered fork bomb. *(March 24)*
+
+- [Cursor admits Composer 2 was built on Kimi K2.5](https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/) — Launched March 19 without disclosing the base model; a developer exposed model ID `kimi-k2p5-rl-0317-s515-fast` within hours via API proxy; Cursor confirmed ~25% from Kimi K2.5 base (Moonshot AI, backed by Alibaba), 75% from its own continued pretraining and RL; sparked debate about disclosure norms and US-China AI infrastructure interdependence at a $29.3B valuation. *(March 22)*
+
+- [GitHub Copilot will use interaction data to train AI models by default starting April 24](https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/) — Affects Free, Pro, and Pro+ users; Business and Enterprise excluded; opt-out available in Settings > Privacy. *(March 25)*
