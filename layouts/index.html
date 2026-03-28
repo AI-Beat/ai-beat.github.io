@@ -7,7 +7,7 @@
   <section class="hero-grid">
     {{ with $hero }}
       <article class="hero-card">
-        <p class="eyebrow">Latest AI news</p>
+        <p class="eyebrow">Latest · {{ range first 1 .Params.tags }}{{ . }}{{ end }}</p>
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <p class="hero-summary">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
         <div class="story-meta">
@@ -18,16 +18,12 @@
     {{ end }}
 
     <aside class="hero-side">
-      <h2>Recent headlines</h2>
-      <ul class="headline-list">
-        {{ range first 4 $secondary }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
-          </li>
+      <h2>Browse by topic</h2>
+      <div class="tag-pills">
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+          <a class="tag-pill" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
         {{ end }}
-      </ul>
-      <a class="archive-link" href="{{ "/news/" | relURL }}">Open full archive →</a>
+      </div>
     </aside>
   </section>
 
