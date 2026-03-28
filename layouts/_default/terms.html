@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <header class="page-header">
+    <p class="eyebrow">Browse by topic</p>
+    <h1>All Tags</h1>
+    <p>{{ with .Data.Terms }}{{ len . }}{{ else }}0{{ end }} topics covered.</p>
+  </header>
+  <div class="tag-cloud">
+    {{ range .Site.Taxonomies.tags.Alphabetical }}
+      <a class="tag-pill" href="{{ .Page.RelPermalink }}">
+        {{ .Page.Title }} <span class="tag-count">({{ len .Pages }})</span>
+      </a>
+    {{ end }}
+  </div>
+{{ end }}

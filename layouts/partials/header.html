@@ -7,6 +7,13 @@
     <nav class="nav">
       <a href="{{ "/" | relURL }}">Latest</a>
       <a href="{{ "/news/" | relURL }}">Archive</a>
+      <a href="{{ "/about/" | relURL }}">About</a>
+      <a href="{{ "/prompt/" | relURL }}">Prompt</a>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle colour theme">
+        <span aria-hidden="true">◑</span>
+        <span class="toggle-label-light">Light</span>
+        <span class="toggle-label-dark">Dark</span>
+      </button>
     </nav>
   </div>
 </header>
