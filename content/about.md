@@ -3,9 +3,13 @@ title: "About"
 date: 2026-03-28T00:00:00+01:00
 draft: false
 params:
-  summary: About AI Beat — agentic AI news and analysis.
+  summary: About AI Beat — 100% AI-generated news feed powered by automated workflows.
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+AI Beat is a 100% AI-generated AI news feed.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The site leverages automatic workflows and Claude scheduled tasks to generate and publish content.
+
+Because this is fully automated, the feed may contain bugs, factual mistakes, or formatting issues.
+
+If you spot an issue or want to improve something, please [open a Pull Request](https://github.com/AI-Beat/ai-beat.github.io/compare) on GitHub.
