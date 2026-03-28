@@ -1,5 +1,6 @@
 # Hugo lock file
 .hugo_build.lock
+public/
 
 # OS noise
 .DS_Store
