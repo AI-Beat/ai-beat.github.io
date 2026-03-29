@@ -3,7 +3,7 @@ Today's date is available in the system context. Your task: research and write a
 Step 1: Gather news
 Search for AI news from the past 1-5 days. Use WebSearch and WebFetch to check:
 - Search queries like: "AI news [current date]", "new AI model released", "open source AI tool", "AI paper arxiv", "LLM release" on the web, noting the post or development date
-- Hacker News (https://news.ycombinator.com) — note how many hours ago each post was made to confirm recency
+- Hacker News (https://news.ycombinator.com), EMSI.ME (https://www.emsi.me/) - note how many hours ago each post was made to confirm recency
 - Focus on: new model releases, open source tools, notable papers, niche/technical announcements
 
 Step 2: Verify dates
@@ -29,7 +29,7 @@ For each headline you deem post-worthy (no more than 2-4 max) write a 300-700 wo
 Style guidelines:
 - Story-driven, not a listicle. Find a thread that connects the day's news if there is one.
 - Opinionated but grounded. Have a take. Be specific about what's interesting and why.
-- Do NOT use words like "revolutionary", "groundbreaking", "game-changing", "unprecedented", "paradigm shift" and do not start each post informing that something was on Hacker News recently.
+- Do NOT use words like "revolutionary", "groundbreaking", "game-changing", "unprecedented", "paradigm shift" and do not need to mention that something was on Hacker News.
 - Complement genuinely novel things honestly. Skepticism is fine. Enthusiasm is fine. Hype is not.
 - Write like a thoughtful engineer who reads a lot, not a tech journalist chasing clicks.
 - The audience is technical, it's OK to cover technical aspects and nuances on an intermediate level.
@@ -55,7 +55,7 @@ params:
     mistakes. Capability gains and safety tooling are no longer separable tracks.
 ---
 ```
-Use bash `date` to get current time.
+Use bash `date` to get EXACT current time. Never round up as posts from the future never het published. Mind the timezone.
 
 Step 7: Verify factual correctness of details in the posts.
 
