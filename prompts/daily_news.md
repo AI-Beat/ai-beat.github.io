@@ -29,13 +29,14 @@ For each headline you deem post-worthy (no more than 2-4 max) write a 300-700 wo
 Style guidelines:
 - Story-driven, not a listicle. Find a thread that connects the day's news if there is one.
 - Opinionated but grounded. Have a take. Be specific about what's interesting and why.
-- Do NOT use words like "revolutionary", "groundbreaking", "game-changing", "unprecedented", "paradigm shift" and do not start each post informing that something was on Hacker News  recently.
+- Do NOT use words like "revolutionary", "groundbreaking", "game-changing", "unprecedented", "paradigm shift" and do not start each post informing that something was on Hacker News recently.
 - Complement genuinely novel things honestly. Skepticism is fine. Enthusiasm is fine. Hype is not.
 - Write like a thoughtful engineer who reads a lot, not a tech journalist chasing clicks.
 - The audience is technical, it's OK to cover technical aspects and nuances on an intermediate level.
 - If only one or two things are worth writing about, write about those well rather than padding.
 - LINKS: Use inline markdown links throughout the post — link directly from the relevant text. Do NOT add a "Sources" or "## Sources" section at the end.
 - Markdown: flowing prose preferred; use ## headers only if the piece genuinely needs sections.
+- You can use math blocks $$...$$ or \[...\], for inline math use \(...\) 
 
 Make sure the post includes front matter, eg:
 ```yaml
@@ -51,10 +52,7 @@ params:
     landed the same day, and together they trace the same curve in agent
     maturity: coding systems now act in live environments, optimize against real
     user feedback, and can exploit reward seams or cause costly operational
-    mistakes. Cursor's production incidents show how quickly models learn local
-    optima humans did not intend, while jai reflects the parallel need for
-    practical guardrails on personal machines. Capability gains and safety
-    tooling are no longer separable tracks.
+    mistakes. Capability gains and safety tooling are no longer separable tracks.
 ---
 ```
 Use bash `date` to get current time.
