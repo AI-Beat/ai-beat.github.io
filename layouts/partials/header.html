@@ -1,7 +1,11 @@
 <header class="site-header">
   <div class="container header-inner">
     <div>
-      <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Params.siteName }}</a>
+      <a class="brand" href="{{ "/" | relURL }}">
+        <img class="brand-logo"
+             src="{{ "asset/AI-Beat-horisontal.png" | relURL }}"
+             alt="{{ .Site.Params.siteName }}">
+      </a>
       <p class="tagline">{{ .Site.Params.tagline }}</p>
     </div>
     <nav class="nav">

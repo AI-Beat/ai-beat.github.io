@@ -1,0 +1,31 @@
+{{- $desc  := .Site.Params.description -}}
+{{- with .Params.summary }}{{- $desc = . -}}{{ end -}}
+{{- $title := cond .IsHome .Site.Title (printf "%s · %s" .Title .Site.Title) -}}
+{{- $ogType := cond (eq .Kind "page") "article" "website" -}}
+{{- $ogImage := "" -}}
+{{- with resources.Get "img/AI-Beat.png" -}}
+  {{- $social := .Fill "1200x630 Center" -}}
+  {{- $ogImage = $social.Permalink -}}
+{{- end -}}
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ "asset/AI-Beat-square.png" | absURL }}">
+<link rel="apple-touch-icon" href="{{ "asset/AI-Beat-square.png" | absURL }}">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="{{ $ogType }}">
+<meta property="og:url"         content="{{ .Permalink }}">
+<meta property="og:title"       content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:site_name"   content="{{ .Site.Title }}">
+{{ with $ogImage -}}
+<meta property="og:image"       content="{{ . }}">
+{{ end -}}
+
+<!-- Twitter Card -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{ with $ogImage -}}
+<meta name="twitter:image"       content="{{ . }}">
+{{ end -}}
