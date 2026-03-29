@@ -57,7 +57,8 @@ params:
     tooling are no longer separable tracks.
 ---
 ```
-Use the 08:00 CEST for time.
+Use bash `date` to get current time.
+
 Step 7: Verify factual correctness of details in the posts.
 
 Step 8: When starting a new month create _index.md in it with apropriate contet for the new month, e.g.:

@@ -2,8 +2,11 @@
   <div class="container header-inner">
     <div>
       <a class="brand" href="{{ "/" | relURL }}">
-        <img class="brand-logo"
+        <img class="brand-logo brand-logo-dark"
              src="{{ "asset/AI-Beat-horisontal.png" | relURL }}"
+             alt="{{ .Site.Params.siteName }}">
+        <img class="brand-logo brand-logo-light"
+             src="{{ "asset/AI-Beat-horisontal-light.png" | relURL }}"
              alt="{{ .Site.Params.siteName }}">
       </a>
       <p class="tagline">{{ .Site.Params.tagline }}</p>
