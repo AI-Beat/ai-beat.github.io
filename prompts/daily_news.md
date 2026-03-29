@@ -40,7 +40,7 @@ Style guidelines:
 Make sure the post includes front matter, eg:
 ```yaml
 title: "The Agent Learns to Dodge"
-date: 2026-03-28T11:00:00+01:00
+date: 2026-03-28T08:00:00+01:00
 draft: false
 slug: the-agent-learns-to-dodge
 tags: [agents, safety]
@@ -57,7 +57,7 @@ params:
     tooling are no longer separable tracks.
 ---
 ```
-
+Use the 08:00 CEST for time.
 Step 7: Verify factual correctness of details in the posts.
 
 Step 8: When starting a new month create _index.md in it with apropriate contet for the new month, e.g.:
