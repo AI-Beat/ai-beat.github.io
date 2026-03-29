@@ -3,6 +3,13 @@
     <header class="article-header">
       <p class="eyebrow">{{ .Section | humanize }}</p>
       <h1>{{ .Title }}</h1>
+      {{ with .Params.tags }}
+        <div class="tag-pills article-tags">
+          {{ range . }}
+            <a class="tag-pill" href="{{ "/tags/" | relURL }}{{ . | urlize }}/">{{ . }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
       <div class="story-meta">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "02 Jan 2006" }}</time>
         {{ with .Params.author }}<span>· {{ . }}</span>{{ end }}

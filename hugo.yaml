@@ -32,6 +32,6 @@ taxonomies:
 params:
   description: Agentic AI news and analysis.
   tagline: Agentic AI news, research notes, and industry analysis.
-  latestCount: 9
+  latestCount: 10
   archivePageSize: 24
   siteName: AI Beat

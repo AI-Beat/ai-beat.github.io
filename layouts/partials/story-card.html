@@ -3,7 +3,7 @@
     <time datetime="{{ .page.Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .page.Date.Format "02 Jan 2006" }}</time>
     {{ with .page.Params.author }}<span>· {{ . }}</span>{{ end }}
   </div>
-  <h{{ .heading }} class="story-title"><a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a></h{{ .heading }}>
+  <h{{ .heading }} class="story-title"><a class="story-card-link" href="{{ .page.RelPermalink }}">{{ .page.Title }}</a></h{{ .heading }}>
   <p class="story-summary">{{ with .page.Params.summary }}{{ . }}{{ else }}{{ .page.Summary }}{{ end }}</p>
   <a class="story-link" href="{{ .page.RelPermalink }}">Read more →</a>
 </article>
