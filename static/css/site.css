@@ -107,6 +107,7 @@ a:hover { color: var(--accent); }
   display: block;
   height: 40px;
   width: auto;
+  border-radius: 16px;
 }
 
 [data-theme="dark"]  .brand-logo-light { display: none; }
