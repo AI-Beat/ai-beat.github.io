@@ -1,0 +1,3 @@
+- [1-Bit Bonsai: The First Commercially Viable 1-Bit LLMs](https://prismml.com/news/bonsai-8b) — PrismML launches Bonsai, native 1-bit LLMs trained from scratch: 8B model at 1.15 GB, 131 tok/s on M4 Pro, Apache 2.0. *(March 31, 2026)*
+
+- [The Claude Code Source Leak: fake tools, frustration regexes, undercover mode](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/) — Anthropic accidentally shipped source maps in their npm package; analysis reveals anti-distillation mechanisms, an "undercover mode" for employee contributions, and an unreleased background agent called KAIROS. *(March 31, 2026)*
