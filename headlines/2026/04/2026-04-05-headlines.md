@@ -1,0 +1,9 @@
+# AI Headlines — 2026-04-05
+
+- [LLM Wiki – example of an "idea file"](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — Andrej Karpathy publishes a pattern for building persistent, compounding knowledge bases with LLMs — raw sources stay immutable, an LLM-maintained wiki grows over time, and crucially queries write back into it; the gist itself is shared as an "idea file": a high-level spec for your agent to implement rather than finished code. *(April 4, 2026)*
+
+- [Components of a Coding Agent](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent) — Sebastian Raschka breaks down the six components a good coding agent harness needs: live repo context, prompt shape and cache reuse, tool access with validation, context reduction via clipping/dedup, structured session memory, and bounded subagent delegation; core finding: "The harness can often be the distinguishing factor that makes one LLM work better than another." *(April 4, 2026)*
+
+- [A case study in testing with 100+ Claude agents in parallel](https://imbue.com/product/mngr_part_2/) — Imbue details how they used their mngr tool to test and improve itself: extract pytest functions from a tutorial script, spawn one agent per test to run-debug-fix, then merge results; the hard problems at scale are token budget economics and observability across hundreds of failure modes, not concurrency itself. *(April 3, 2026)*
+
+- [CVE-2026-32211: Authentication flaw in Azure MCP Server](https://dev.to/michael_onyekwere/cve-2026-32211-what-the-azure-mcp-server-flaw-means-for-your-agent-security-14db) — Microsoft disclosed a CVSS 9.1 flaw in the Azure MCP Server: missing authentication mechanisms allow unauthorized access to sensitive data; part of a broader wave of MCP security issues (30+ CVEs filed between January and February 2026 across 2,614 surveyed MCP implementations). *(April 3, 2026)*
