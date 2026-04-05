@@ -6,4 +6,8 @@
 
 - [A case study in testing with 100+ Claude agents in parallel](https://imbue.com/product/mngr_part_2/) — Imbue details how they used their mngr tool to test and improve itself: extract pytest functions from a tutorial script, spawn one agent per test to run-debug-fix, then merge results; the hard problems at scale are token budget economics and observability across hundreds of failure modes, not concurrency itself. *(April 3, 2026)*
 
+- [Netflix open-sources VOID: physics-aware video object removal](https://github.com/Netflix/void-model) — Netflix's first open-source AI model (with INSAIT Sofia University); removes objects from video and automatically regenerates downstream physical effects (collisions, interactions); built on CogVideoX fine-tuned with synthetic Kubric/HUMOTO data; introduces a "quadmask" four-value per-pixel encoding; Apache 2.0, arXiv:2604.02296. *(April 3–4, 2026)*
+
 - [CVE-2026-32211: Authentication flaw in Azure MCP Server](https://dev.to/michael_onyekwere/cve-2026-32211-what-the-azure-mcp-server-flaw-means-for-your-agent-security-14db) — Microsoft disclosed a CVSS 9.1 flaw in the Azure MCP Server: missing authentication mechanisms allow unauthorized access to sensitive data; part of a broader wave of MCP security issues (30+ CVEs filed between January and February 2026 across 2,614 surveyed MCP implementations). *(April 3, 2026)*
+
+- [Show HN: sllm — shared GPU node, flat-rate unlimited tokens](https://sllm.cloud) — Service that splits GPU nodes among developers at $10–40/seat with no per-token cap (throughput-limited); OpenAI-compatible API via vLLM; supports Llama 4, Qwen 3.5, DeepSeek; no traffic logging. *(April 4–5, 2026)*
