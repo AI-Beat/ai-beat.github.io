@@ -1,0 +1,9 @@
+# AI Headlines — 2026-04-09
+
+- [MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU](https://arxiv.org/abs/2604.05091) — Notre Dame/Lehigh paper stores all parameters and optimizer states in host CPU RAM (up to 1.5TB), streams them to the GPU layer by layer via a double-buffered 3-CUDA-stream pipeline; trains 120B params on a single H200, 1.84× faster than DeepSpeed ZeRO-3 on 14B, and enables 7B training with 512K context on GH200; code on [GitHub](https://github.com/DLYuanGod/MegaTrain). *(April 6, 2026)*
+
+- [Anthropic launches Claude Managed Agents (public beta)](https://siliconangle.com/2026/04/08/anthropic-launches-claude-managed-agents-speed-ai-agent-development/) — Managed infrastructure for running Claude as an autonomous agent: secure cloud containers, built-in Bash/file/web tools, persistent sessions, MCP server support, prompt caching/compaction, and a new `managed-agents-2026-04-01` API beta header; early adopters include Notion, Rakuten, Asana. *(April 8, 2026)*
+
+- [Meta debuts Muse Spark, its first major model since the Alexandr Wang hire](https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html) — Closed-source; 4th place on Artificial Analysis Intelligence Index v4 (score 52); 4-of-256 expert routing with 13B active params; Meta says smaller training compute than older Llama 4 midsize variant; open-source version planned for future. *(April 8, 2026)*
+
+- [ML promises to be profoundly weird (aphyr.com)](https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess) — Kyle Kingsbury (Jepsen) opens a multi-part series on ML's societal risks; core framing: LLMs are deeply unreliable narrators — "jagged" competency, constant fabrication, and no accurate self-knowledge — being deployed into critical infrastructure; the intro is short but the framing is more careful than most hype-or-doom writing. *(April 6, 2026)*
