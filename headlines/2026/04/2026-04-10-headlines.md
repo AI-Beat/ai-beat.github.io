@@ -1,0 +1,7 @@
+# AI Headlines — 2026-04-10
+
+- [Z.AI releases GLM-5.1: open-weight 754B MoE model targeting 8-hour autonomous coding](https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4) — MIT-licensed weights on HuggingFace; 58.4 on SWE-Bench Pro (within 1.2 points of Claude Opus 4.6); "8-hour window" is a training objective for sustained goal-directed behavior, not just context length; uses a staircase plan→execute→test→fix loop. *(April 7–8, 2026)*
+
+- [Research-Driven Agents: When an agent reads before it codes](https://blog.skypilot.co/research-driven-agents/) — SkyPilot experiment where Claude Code pre-read academic papers and competing forks before optimizing llama.cpp; the literature revealed CUDA/Metal kernel fusions absent from the CPU backend, yielding +15.1% text-generation throughput on x86 and +5% on ARM at a total cost of ~$29 over 3 hours on 4 cloud VMs. *(April 8, 2026)*
+
+- [Reverse engineering Gemini's SynthID watermarking](https://github.com/aloshdenny/reverse-SynthID) — Project recovers the resolution-dependent carrier frequencies Google embeds in SynthID-watermarked images (e.g. peak at position (9,9) for 1024×1024); achieves 90% detection accuracy and a V3 spectral-codebook bypass at 43+ dB PSNR; green channel carries the strongest signal with >99.5% cross-image phase coherence — functioning as a fixed model-level key. *(Active project; major codebook expansion April 10, 2026)*
