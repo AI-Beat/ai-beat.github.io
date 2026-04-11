@@ -7,7 +7,16 @@
   <section class="hero-grid">
     {{ with $hero }}
       <article class="hero-card">
-        <p class="eyebrow">Latest · {{ range first 1 .Params.tags }}{{ . }}{{ end }}</p>
+        {{ $categoryTerms := .GetTerms "categories" }}
+        <p class="eyebrow">
+          Latest
+          {{ with $categoryTerms }}
+            {{ $category := index . 0 }}
+            · <a href="{{ $category.RelPermalink }}">{{ $category.LinkTitle }}</a>
+          {{ else }}
+            · {{ .Section | humanize }}
+          {{ end }}
+        </p>
         <h1><a class="story-card-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <p class="hero-summary">{{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}</p>
         <div class="story-meta">
