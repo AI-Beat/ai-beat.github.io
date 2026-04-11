@@ -4,6 +4,7 @@ date: 2026-04-10T06:22:29Z
 draft: false
 slug: research-driven-agents-skypilot
 tags: [agents, coding, optimization, performance]
+categories: [agents]
 params:
   author: AI Beat Desk
   summary: >-

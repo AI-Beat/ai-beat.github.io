@@ -4,6 +4,7 @@ date: 2026-04-01T06:15:00+00:00
 draft: false
 slug: bonsai-1bit-edge-llm
 tags: [quantization, edge-ai, open-weights]
+categories: [models]
 params:
   author: AI Beat Desk
   summary: >-

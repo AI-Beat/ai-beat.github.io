@@ -263,6 +263,52 @@ main.container {
   transition: color 0.35s ease;
 }
 
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.category-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.32rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.96rem;
+  font-weight: 750;
+  letter-spacing: -0.01em;
+  transition:
+    border-color 0.18s ease,
+    color 0.35s ease;
+}
+
+.category-link:hover {
+  border-color: var(--line-hover);
+  color: var(--accent);
+}
+
+.category-name {
+  min-width: 0;
+}
+
+.category-link:last-child {
+  border-bottom: 0;
+}
+
+.category-count {
+  font-size: 0.84rem;
+  font-weight: 650;
+  color: var(--text-muted);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
 .tag-pills {
   display: flex;
   flex-wrap: wrap;

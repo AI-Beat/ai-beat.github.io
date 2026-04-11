@@ -4,6 +4,7 @@ date: 2026-04-06T06:22:00+00:00
 draft: false
 slug: foe-first-solution-reasoning
 tags: [reasoning, inference, efficiency, llm]
+categories: [research]
 params:
   author: AI Beat Desk
   summary: >-

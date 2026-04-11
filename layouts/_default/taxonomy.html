@@ -1,8 +1,9 @@
 {{ define "main" }}
+  {{ $singular := .Data.Singular | humanize }}
   <header class="page-header">
-    <p class="eyebrow">Topic</p>
+    <p class="eyebrow">{{ $singular }}</p>
     <h1>{{ .Title }}</h1>
-    <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}story{{ else }}stories{{ end }} tagged here.</p>
+    <p>{{ len .Pages }} {{ if eq (len .Pages) 1 }}story{{ else }}stories{{ end }} in this {{ lower $singular }}.</p>
   </header>
   <div class="story-list">
     {{ range .Pages.ByDate.Reverse }}

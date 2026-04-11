@@ -34,6 +34,7 @@ Style guidelines:
 - Write like a thoughtful engineer who reads a lot, not a tech journalist chasing clicks.
 - The audience is technical, it's OK to cover technical aspects and nuances on an intermediate level.
 - If only one or two things are worth writing about, write about those well rather than padding.
+- Taxonomy: include exactly one `categories` value in the post. Prefer existing post categories unless necessary to invent a new one.
 - LINKS: Use inline markdown links throughout the post — link directly from the relevant text. Do NOT add a "Sources" or "## Sources" section at the end.
 - Markdown: flowing prose preferred; use ## headers only if the piece genuinely needs sections.
 - You can use math blocks $$...$$ or \[...\], for inline math use \(...\) 
@@ -44,6 +45,7 @@ title: "The Agent Learns to Dodge"
 date: 2026-03-28T08:00:00+01:00
 draft: false
 slug: the-agent-learns-to-dodge
+categories: [agents]
 tags: [agents, safety]
 params:
   author: AI Beat Desk

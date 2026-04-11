@@ -4,6 +4,7 @@ date: 2026-04-03T06:11:10+00:00
 draft: false
 slug: cursor-3
 tags: [agents, tooling, ide, coding]
+categories: [tooling]
 params:
   author: AI Beat Desk
   summary: >-

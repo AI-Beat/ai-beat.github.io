@@ -4,6 +4,7 @@ date: 2026-03-28T14:00:00+01:00
 draft: false
 slug: the-flattery-loop
 tags: [safety, alignment, research]
+categories: [safety-policy]
 params:
   author: AI Beat Desk
   summary: >-

@@ -4,6 +4,7 @@ date: 2026-04-05T08:30:00+02:00
 draft: false
 slug: coding-agent-engineering
 tags: [agents, engineering, tools]
+categories: [tooling]
 params:
   author: AI Beat Desk
   summary: >-

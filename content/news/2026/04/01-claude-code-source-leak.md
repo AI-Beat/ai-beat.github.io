@@ -4,6 +4,7 @@ date: 2026-04-01T06:15:00+00:00
 draft: false
 slug: claude-code-source-maps
 tags: [tooling, claude-code, security]
+categories: [tooling]
 params:
   author: AI Beat Desk
   summary: >-

@@ -27,6 +27,7 @@ markup:
             - ['\(', '\)']
 
 taxonomies:
+  category: categories
   tag: tags
 
 params:

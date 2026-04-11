@@ -4,6 +4,7 @@ date: 2026-04-10T06:22:29Z
 draft: false
 slug: glm-51-eight-hour-agent
 tags: [agents, open-source, benchmarks, coding]
+categories: [agents]
 params:
   author: AI Beat Desk
   summary: >-

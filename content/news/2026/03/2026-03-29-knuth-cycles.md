@@ -4,6 +4,7 @@ date: 2026-03-29T11:00:00+01:00
 draft: false
 slug: knuth-claude-cycles-proof-assistant
 tags: [research, mathematics, reasoning, formal-verification]
+categories: [research]
 params:
   author: AI Beat Desk
   summary: >-

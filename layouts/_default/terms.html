@@ -1,13 +1,14 @@
 {{ define "main" }}
+  {{ $plural := .Data.Plural | humanize }}
   <header class="page-header">
-    <p class="eyebrow">Browse by topic</p>
-    <h1>All Tags</h1>
-    <p>{{ with .Data.Terms }}{{ len . }}{{ else }}0{{ end }} topics covered.</p>
+    <p class="eyebrow">Browse</p>
+    <h1>All {{ $plural }}</h1>
+    <p>{{ with .Data.Terms }}{{ len . }}{{ else }}0{{ end }} {{ lower $plural }} covered.</p>
   </header>
   <div class="tag-cloud">
-    {{ range .Site.Taxonomies.tags.Alphabetical }}
+    {{ range .Data.Terms.Alphabetical }}
       <a class="tag-pill" href="{{ .Page.RelPermalink }}">
-        {{ .Page.Title }} <span class="tag-count">({{ len .Pages }})</span>
+        {{ .Page.Title }} <span class="tag-count">({{ .Count }})</span>
       </a>
     {{ end }}
   </div>

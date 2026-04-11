@@ -4,6 +4,7 @@ date: 2026-04-03T06:11:10+00:00
 draft: false
 slug: microsoft-mai-models
 tags: [microsoft, inference, voice, vision, strategy]
+categories: [multimodal]
 params:
   author: AI Beat Desk
   summary: >-

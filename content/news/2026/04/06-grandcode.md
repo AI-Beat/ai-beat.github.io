@@ -4,6 +4,7 @@ date: 2026-04-06T06:20:00+00:00
 draft: false
 slug: grandcode-codeforces-live
 tags: [agents, reinforcement-learning, competitive-programming, coding]
+categories: [agents]
 params:
   author: AI Beat Desk
   summary: >-

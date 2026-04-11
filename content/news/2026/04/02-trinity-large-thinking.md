@@ -4,6 +4,7 @@ date: 2026-04-02T06:16:32+00:00
 draft: false
 slug: trinity-large-thinking
 tags: [open-weights, reasoning, moe, inference]
+categories: [models]
 params:
   author: AI Beat Desk
   summary: >-

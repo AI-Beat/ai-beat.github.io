@@ -4,6 +4,7 @@ date: 2026-03-30T08:00:00+00:00
 draft: false
 slug: the-ad-in-the-forest
 tags: [tooling, open-source, ai-ethics]
+categories: [safety-policy]
 params:
   author: AI Beat Desk
   summary: >-

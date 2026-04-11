@@ -4,6 +4,7 @@ date: 2026-03-30T14:59:17+00:00
 draft: false
 slug: the-2026-prediction
 tags: [mathematics, research, llm]
+categories: [research]
 params:
   author: AI Beat Desk
   summary: >-

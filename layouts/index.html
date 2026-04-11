@@ -18,12 +18,14 @@
     {{ end }}
 
     <aside class="hero-side">
-      <h2>Browse by topic</h2>
-      <div class="tag-pills">
-        {{ range .Site.Taxonomies.tags.Alphabetical }}
-          <a class="tag-pill" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      <nav class="category-list" aria-label="Category list">
+        {{ range .Site.Taxonomies.categories.ByCount }}
+          <a class="category-link" href="{{ .Page.RelPermalink }}">
+            <span class="category-name">{{ .Page.Title }}</span>
+            <span class="category-count">({{ .Count }})</span>
+          </a>
         {{ end }}
-      </div>
+      </nav>
     </aside>
   </section>
 

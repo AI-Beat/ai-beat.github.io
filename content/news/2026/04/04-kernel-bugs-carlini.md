@@ -4,6 +4,7 @@ date: 2026-04-04T19:05:00+02:00
 draft: false
 slug: kernel-bugs-carlini
 tags: [security, agents, linux]
+categories: [safety-policy]
 params:
   author: AI Beat Desk
   summary: >-

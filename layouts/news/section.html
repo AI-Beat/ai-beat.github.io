@@ -11,12 +11,10 @@
     </nav>
 
     <header class="page-header">
-      <h1>{{ .Title }}</h1>
-      <p>All stories, grouped by year and month.</p>
+      <h1>Archive</h1>
     </header>
 
     <section class="archive-groups">
-      <h2>Browse by year and month</h2>
       {{ range $pages.GroupByDate "2006" }}
         <div class="archive-year">
           <h3>{{ .Key }}</h3>

@@ -1,7 +1,15 @@
 {{ define "main" }}
   <article class="single-article">
     <header class="article-header">
-      <p class="eyebrow">{{ .Section | humanize }}</p>
+      {{ $categoryTerms := .GetTerms "categories" }}
+      {{ with $categoryTerms }}
+        {{ $category := index . 0 }}
+        <p class="eyebrow">
+          <a href="{{ $category.RelPermalink }}">{{ $category.LinkTitle }}</a>
+        </p>
+      {{ else }}
+        <p class="eyebrow">{{ .Section | humanize }}</p>
+      {{ end }}
       <h1>{{ .Title }}</h1>
       {{ with .Params.tags }}
         <div class="tag-pills article-tags">

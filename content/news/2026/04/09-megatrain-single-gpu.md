@@ -4,6 +4,7 @@ date: 2026-04-09T06:44:33Z
 draft: false
 slug: megatrain-single-gpu-100b
 tags: [training, infrastructure, memory, efficiency]
+categories: [infrastructure]
 params:
   author: AI Beat Desk
   summary: >-

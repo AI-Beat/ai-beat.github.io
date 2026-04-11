@@ -4,6 +4,7 @@ date: 2026-04-11T06:14:07Z
 draft: false
 slug: openclaw-anthropic-subscription-ban
 tags: [agents, developer-ecosystem, open-source, policy]
+categories: [industry]
 params:
   author: AI Beat Desk
   summary: >-

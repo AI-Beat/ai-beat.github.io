@@ -4,6 +4,7 @@ date: 2026-04-03T06:11:10+00:00
 draft: false
 slug: mlperf-software-gains
 tags: [inference, nvidia, performance, infrastructure]
+categories: [infrastructure]
 params:
   author: AI Beat Desk
   summary: >-

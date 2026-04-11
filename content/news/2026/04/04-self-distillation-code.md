@@ -4,6 +4,7 @@ date: 2026-04-04T19:05:00+02:00
 draft: false
 slug: self-distillation-code
 tags: [training, llm, code]
+categories: [research]
 params:
   author: AI Beat Desk
   summary: >-

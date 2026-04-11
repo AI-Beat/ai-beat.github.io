@@ -4,6 +4,7 @@ date: 2026-04-07T06:22:42Z
 draft: false
 slug: ghost-pepper-local-pipeline
 tags: [local-ai, speech, apple-silicon]
+categories: [multimodal]
 params:
   author: AI Beat Desk
   summary: >-

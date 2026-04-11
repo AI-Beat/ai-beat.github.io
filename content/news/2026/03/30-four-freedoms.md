@@ -4,6 +4,7 @@ date: 2026-03-30T09:00:00+00:00
 draft: false
 slug: four-freedoms-reconsidered
 tags: [open-source, agents, free-software]
+categories: [industry]
 params:
   author: AI Beat Desk
   summary: >-

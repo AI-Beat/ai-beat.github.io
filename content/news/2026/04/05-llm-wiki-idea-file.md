@@ -4,6 +4,7 @@ date: 2026-04-05T08:00:00+02:00
 draft: false
 slug: llm-wiki-idea-file
 tags: [agents, knowledge, tools]
+categories: [tooling]
 params:
   author: AI Beat Desk
   summary: >-

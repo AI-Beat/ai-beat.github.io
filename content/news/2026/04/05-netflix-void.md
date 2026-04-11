@@ -4,6 +4,7 @@ date: 2026-04-05T09:00:00+02:00
 draft: false
 slug: netflix-void
 tags: [video, open-source, generative-models]
+categories: [multimodal]
 params:
   author: AI Beat Desk
   summary: >-

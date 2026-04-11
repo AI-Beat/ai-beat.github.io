@@ -4,6 +4,7 @@ date: 2026-03-31T07:30:00+00:00
 draft: false
 slug: harrier-oss-multilingual-embeddings
 tags: [embeddings, rag, open-weights, microsoft]
+categories: [models]
 params:
   author: AI Beat Desk
   summary: >-

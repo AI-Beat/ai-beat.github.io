@@ -4,6 +4,7 @@ date: 2026-03-29T12:00:00+00:00
 draft: false
 slug: something-happened-a-month-ago
 tags: [open-source, linux, security, code-review]
+categories: [safety-policy]
 params:
   author: AI Beat Desk
   summary: >-

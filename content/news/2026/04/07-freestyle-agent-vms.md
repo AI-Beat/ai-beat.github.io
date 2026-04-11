@@ -4,6 +4,7 @@ date: 2026-04-07T06:22:42Z
 draft: false
 slug: freestyle-agent-vms
 tags: [agents, infrastructure, sandboxes]
+categories: [infrastructure]
 params:
   author: AI Beat Desk
   summary: >-

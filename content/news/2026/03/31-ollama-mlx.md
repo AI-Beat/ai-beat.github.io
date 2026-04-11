@@ -4,6 +4,7 @@ date: 2026-03-31T06:29:50+00:00
 draft: false
 slug: ollama-mlx-apple-silicon
 tags: [inference, apple-silicon, ollama]
+categories: [infrastructure]
 params:
   author: AI Beat Desk
   summary: >-

@@ -4,6 +4,7 @@ date: 2026-03-31T07:00:00+00:00
 draft: false
 slug: mr-chatterbox-public-domain
 tags: [training-data, copyright, open-weights]
+categories: [safety-policy]
 params:
   author: AI Beat Desk
   summary: >-
