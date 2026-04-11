@@ -1,0 +1,9 @@
+# AI Headlines — 2026-04-11
+
+- [Anthropic ends Claude subscription coverage for OpenClaw, briefly suspends creator's account](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/) — Anthropic cut Claude Pro/Max subscription access to third-party agentic frameworks (led by OpenClaw) on April 4, citing unsustainable compute economics ($1–5K/day per agentic session vs. $200/month sub); days later, OpenClaw creator Peter Steinberger's account was briefly suspended for "suspicious activity" while he was using the API as required — reinstated hours later after the post went viral. *(April 4–10, 2026)*
+
+- [Ramp data: Anthropic now adopted by 30.6% of US businesses](https://www.ft.com/content/abb93a6f-9060-4095-8045-84b97d394a4c) — Ramp's business spending tracker shows Claude at 30.6% of surveyed US companies, up from low single digits a year ago; the data tracks actual payment volume on corporate cards, not stated preferences. *(April 11, 2026)*
+
+- [OpenAI discloses GitHub Actions supply chain attack via malicious Axios package](https://www.axios.com/2026/04/11/openai-axios-mac-cyberattack) — A misconfigured GitHub Actions workflow at OpenAI downloaded a trojanized Axios library, giving attackers access to macOS code-signing certificates used for ChatGPT Desktop; no user data or IP was confirmed compromised; the attack was part of a broader AI-assisted campaign (475 PRs in 26 hours) targeting the `pull_request_target` workflow trigger across public repos. *(April 2–11, 2026)*
+
+- [AI Engineer Europe 2026 wraps up (Apr 8–10, London)](https://www.ai.engineer/europe) — Three-day conference in London surfaces recurring patterns: "cheap executor + expensive advisor" agent architectures gaining real traction, GLM-5.1 reaches frontier tier and claims #3 on Code Arena, and eval frameworks increasingly treated as training data with strict train/test splits. *(April 8–10, 2026)*
