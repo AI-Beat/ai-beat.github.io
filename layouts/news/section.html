@@ -3,22 +3,20 @@
 
   {{ if eq $kind "news-archive" }}
     {{ $pages := (where site.RegularPages "Section" "news").ByDate.Reverse }}
+    <nav class="archive-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ "/" | relURL }}">Home</a></li>
+        <li><span aria-current="page">News</span></li>
+      </ol>
+    </nav>
+
     <header class="page-header">
-      <p class="eyebrow">Archive</p>
       <h1>{{ .Title }}</h1>
       <p>All stories, grouped by year and month.</p>
     </header>
 
-    {{ $paginator := .Paginate $pages (default 24 .Site.Params.archivePageSize) }}
-    <div class="story-list">
-      {{ range $paginator.Pages }}
-        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
-      {{ end }}
-    </div>
-    {{ partial "pagination.html" . }}
-
     <section class="archive-groups">
-      <h2>Browse by month</h2>
+      <h2>Browse by year and month</h2>
       {{ range $pages.GroupByDate "2006" }}
         <div class="archive-year">
           <h3>{{ .Key }}</h3>
@@ -40,22 +38,36 @@
       {{ end }}
     </section>
 
+    {{ $paginator := .Paginate $pages (default 24 .Site.Params.archivePageSize) }}
+    <div class="story-list">
+      {{ range $paginator.Pages }}
+        {{ partial "story-card.html" (dict "page" . "heading" 2) }}
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+
   {{ else if eq $kind "news-year" }}
     {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
+    <nav class="archive-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ "/" | relURL }}">Home</a></li>
+        <li><a href="{{ "/news/" | relURL }}">News</a></li>
+        <li><span aria-current="page">{{ .Title }}</span></li>
+      </ol>
+    </nav>
+
     <header class="page-header">
-      <p class="eyebrow">Year archive</p>
       <h1>{{ .Title }}</h1>
       <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} in this year.</p>
     </header>
 
-    <section class="archive-groups">
-      <h2>Months</h2>
+    <nav class="archive-context-nav" aria-label="Months in {{ .Title }}">
       <ul class="archive-months months-grid">
         {{ range .Sections.ByDate.Reverse }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span>({{ len .RegularPagesRecursive }})</span></li>
         {{ end }}
       </ul>
-    </section>
+    </nav>
 
     <div class="story-list">
       {{ range $pages }}
@@ -65,11 +77,63 @@
 
   {{ else if eq $kind "news-month" }}
     {{ $pages := .RegularPages.ByDate.Reverse }}
+    {{ $yearPage := .Parent }}
+    {{ $months := slice }}
+    {{ with $yearPage }}
+      {{ $months = .Sections.ByDate.Reverse }}
+    {{ end }}
+    {{ $currentMonthIndex := -1 }}
+    {{ range $i, $month := $months }}
+      {{ if eq $month.RelPermalink $.RelPermalink }}
+        {{ $currentMonthIndex = $i }}
+      {{ end }}
+    {{ end }}
+    {{ $monthNav := newScratch }}
+    {{ if gt $currentMonthIndex 0 }}
+      {{ $monthNav.Set "newer" (index $months (sub $currentMonthIndex 1)) }}
+    {{ end }}
+    {{ if lt $currentMonthIndex (sub (len $months) 1) }}
+      {{ $monthNav.Set "older" (index $months (add $currentMonthIndex 1)) }}
+    {{ end }}
+
+    <nav class="archive-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ "/" | relURL }}">Home</a></li>
+        <li><a href="{{ "/news/" | relURL }}">News</a></li>
+        {{ with $yearPage }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        <li><span aria-current="page">{{ .Title }}</span></li>
+      </ol>
+    </nav>
+
     <header class="page-header">
-      <p class="eyebrow">Month archive</p>
       <h1>{{ .Title }}</h1>
       <p>{{ len $pages }} {{ if eq (len $pages) 1 }}story{{ else }}stories{{ end }} in this month.</p>
     </header>
+
+    <nav class="archive-month-pager" aria-label="Month navigation">
+      <div class="month-pager-slot month-pager-newer">
+        {{ with $monthNav.Get "newer" }}
+          <a href="{{ .RelPermalink }}">← Newer month</a>
+        {{ else }}
+          <span class="month-pager-empty" aria-hidden="true"></span>
+        {{ end }}
+      </div>
+      <div class="month-pager-slot month-pager-up">
+        {{ with $yearPage }}
+          <a href="{{ .RelPermalink }}">↑ {{ .Title }}</a>
+        {{ end }}
+      </div>
+      <div class="month-pager-slot month-pager-older">
+        {{ with $monthNav.Get "older" }}
+          <a href="{{ .RelPermalink }}">Older month →</a>
+        {{ else }}
+          <span class="month-pager-empty" aria-hidden="true"></span>
+        {{ end }}
+      </div>
+    </nav>
+
     <div class="story-list">
       {{ range $pages }}
         {{ partial "story-card.html" (dict "page" . "heading" 2) }}
