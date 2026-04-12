@@ -3,6 +3,7 @@ title: "Near-Perfect Scores. Zero Tasks Solved."
 date: 2026-04-12T06:14:29Z
 draft: false
 slug: benchjack-agent-benchmarks
+categories: [research]
 tags: [benchmarks, evaluation, agents]
 params:
   author: AI Beat Desk
