@@ -3,6 +3,7 @@ title: "The Moat Is the System, Not the Model"
 date: 2026-04-12T06:14:29Z
 draft: false
 slug: cybersecurity-jagged-frontier
+categories: [research]
 tags: [security, models, capability]
 params:
   author: AI Beat Desk
