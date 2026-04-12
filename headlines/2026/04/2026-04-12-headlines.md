@@ -1,0 +1,7 @@
+# AI Headlines — 2026-04-12
+
+- [How We Broke Top AI Agent Benchmarks](https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/) — Berkeley RDI researchers built an automated scanner that achieved near-perfect scores on eight major AI agent benchmarks (SWE-bench Verified, WebArena, Terminal-Bench, GAIA, and more) without solving any tasks, by exploiting fundamental evaluation vulnerabilities; they also released BenchJack, an open-source tool to audit benchmarks before publication. *(April 2026)*
+
+- [Small models also found the vulnerabilities that Mythos found](https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier) — AISLE tested Anthropic's Mythos cybersecurity cases (FreeBSD NFS exploit, OpenBSD SACK integer overflow, OWASP false-positive detection) against eight open-weight models from 3.6B to 120B params; all eight reproduced the FreeBSD result, a 5.1B model traced the OpenBSD chain, and smaller open models outperformed frontier labs on the OWASP case; conclusion: "the moat is the system, not the model." *(April 7, 2026)*
+
+- [Archon CLI v0.3.5: YAML workflow engine for AI coding agents](https://github.com/coleam00/archon) — Defines AI-assisted dev workflows (plan → implement → validate → PR) as versioned YAML, runs each in an isolated git worktree; 17 built-in workflows, composable deterministic and AI-powered nodes, multi-platform triggers (CLI, GitHub webhooks, Slack). *(April 10, 2026)*
