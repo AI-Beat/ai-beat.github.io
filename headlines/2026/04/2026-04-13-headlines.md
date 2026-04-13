@@ -1,0 +1,3 @@
+# AI Headlines — 2026-04-13
+
+- [MiniMax M2.7: A Self-Evolving Agent Model](https://www.minimax.io/news/minimax-m27-en) — MiniMax open-weights a 229B-parameter sparse MoE (10B active) targeting coding and agentic tasks; the headline feature is that an internal M2.7 instance autonomously optimized its own programming scaffold over 100+ rounds — analyzing failures, modifying code, running evaluations, and keeping or reverting changes — achieving 30% performance improvement with no per-step human direction; scores 56.22% on SWE-Pro (matching GPT-5.3-Codex), 57.0% on Terminal Bench 2, 55.6% on VIBE-Pro; released on HuggingFace under a "modified MIT" license that restricts commercial use without prior written authorization. *(April 12, 2026)*
