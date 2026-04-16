@@ -1,0 +1,9 @@
+# AI Headlines — 2026-04-16
+
+- [Darkbloom: Private AI Inference on Idle Apple Silicon](https://darkbloom.dev) — Eigen Labs (EigenLayer) launches a research-preview decentralized inference network that routes requests through idle Macs using Apple Secure Enclave attestation, end-to-end encryption the operator can't break, and a hardened runtime; supports Gemma 4 26B, Qwen3.5 (27B/122B MoE), MiniMax M2.5 239B, FLUX.2 image gen, and Cohere Transcribe; claims 70% cost reduction vs. cloud providers. *(April 15, 2026)*
+
+- [NVIDIA Ising: Open AI Models for Quantum Computer Infrastructure](https://nvidianews.nvidia.com/news/nvidia-launches-ising-the-worlds-first-open-ai-models-to-accelerate-the-path-to-useful-quantum-computers) — A 35B VLM (Ising Calibration) reads measurement output from quantum processors and infers calibration adjustments in hours instead of days; Ising Decoding is a 3D CNN variant that performs real-time error correction 2.5× faster and 3× more accurately than pyMatching; open source on GitHub and Hugging Face; adopted by Harvard, Fermilab, Lawrence Berkeley, IQM, IonQ. *(April 14, 2026)*
+
+- [OpenAI updates Agents SDK with sandbox and long-horizon harness](https://openai.com/index/the-next-evolution-of-the-agents-sdk/) — New capabilities include isolated sandbox environments (via Cloudflare, Vercel, E2B, Modal, or custom) and an in-distribution harness designed for multi-step tasks; provider-agnostic: works with 100+ LLMs; Python first, TypeScript later; all API customers at standard pricing. *(April 15, 2026)*
+
+- [Libretto v0.6.6: deterministic browser automation toolkit for coding agents](https://github.com/saffron-health/libretto) — Open-source MIT toolkit that gives coding agents a live browser and CLI tools; captures network traffic to reverse-engineer APIs, records user actions into automation scripts, inspects live pages with minimal context overhead. *(April 14, 2026)*
