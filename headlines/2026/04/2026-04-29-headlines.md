@@ -1,0 +1,5 @@
+# AI Headlines — 2026-04-29
+
+- [Auto-Architecture: Karpathy's Loop, Pointed at a CPU](https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md) — An autonomous LLM agent loop applied to RISC-V CPU microarchitecture design; 73 proposals over ~10 hours yield 10 accepted changes, taking a 5-stage in-order pipeline from 301 to 577 CoreMark iter/s (+92%) and outperforming VexRiscv by 13% architecturally, with 40% fewer LUTs; the key takeaway is that correctness verification, not the agent loop, is the hard part. *(April 29, 2026)*
+
+- [How ChatGPT Serves Ads: The Full Attribution Loop](https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/) — Technical reverse-engineering of OpenAI's ad system: ads arrive as structured objects injected into the conversation SSE stream; four Fernet-encrypted tokens handle integrity and attribution; a merchant-side JavaScript SDK writes a first-party tracking cookie and POSTs conversion events back to OpenAI, completing a closed first-party attribution loop with no third-party intermediary. *(April 28, 2026)*
