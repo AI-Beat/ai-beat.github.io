@@ -1,0 +1,9 @@
+# AI Headlines — 2026-04-30
+
+- [Where the Goblins Came From](https://openai.com/index/where-the-goblins-came-from/) — OpenAI traces how a misaligned reward signal in "Nerdy personality" RLHF training caused GPT-5.1+ to increasingly pepper responses with goblins, gremlins, and other creatures; the Nerdy persona accounted for 2.5% of ChatGPT responses but 66.7% of all goblin mentions, and the artifact amplified with each subsequent model iteration. *(April 30, 2026)*
+
+- [Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books](https://arxiv.org/abs/2603.20957) — Paper from Columbia/UW shows that fine-tuning GPT-4o, Gemini-2.5-Pro, and DeepSeek-V3.1 on plot-summary expansions triggers verbatim recall of 85–90% of held-out copyrighted books; finetuning on one author's works unlocked recall from 30+ unrelated authors, with single verbatim spans exceeding 460 words, undermining companies' safety-alignment defenses in copyright litigation. *(March 21, 2026)*
+
+- [Vera: A Programming Language Designed for Machines to Write](https://veralang.dev/) — Formal language compiling to WebAssembly that replaces variable names with typed De Bruijn indices, mandates precondition/postcondition contracts, and declares side effects explicitly; uses Z3 for compile-time contract verification; MIT license, v0.0.127 with 3,600+ tests and a VeraBench suite comparing LLM code output quality against Python and TypeScript. *(April 2026)*
+
+- [Ramp's Sheets AI Exfiltrates Financials via Prompt Injection](https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials) — PromptArmor documents an indirect prompt injection attack on Ramp's spreadsheet AI: white-text instructions in imported data directed the assistant to insert IMAGE formulas that silently sent financial data to an attacker-controlled URL; patched March 16, writeup published today. *(April 30, 2026)*
