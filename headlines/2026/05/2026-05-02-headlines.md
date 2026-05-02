@@ -1,0 +1,5 @@
+# AI Headlines — 2026-05-02
+
+- [Apple Support App Accidentally Ships CLAUDE.md Files, Revealing Internal AI Coding Stack](https://www.news9live.com/technology/artificial-intelligence/apple-support-app-claude-md-files-leak-claude-code-ai-tools-2966945) — Version 5.13 of the Apple Support app shipped with CLAUDE.md instruction files for Claude Code, exposing architecture notes about Juno (Apple's internal LLM platform), Swift concurrency patterns, and internal libraries like SAComponents; Apple pushed v5.13.1 to remove them hours later. *(May 1, 2026)*
+
+- [Qwen-Scope: Open-Source SAEs Turn Interpretability into a Dev Tool](https://qianwen-res.oss-accelerate.aliyuncs.com/qwen-scope/Qwen_Scope.pdf) — Alibaba's Qwen team releases 14 groups of sparse autoencoder weights across Qwen3 and Qwen3.5 variants, demonstrating four practical uses: inference steering without retraining, evaluation deduplication, toxicity detection (F1 > 0.90 via feature rules), and fine-tuning loss augmentation to suppress unwanted behavior. *(April 30, 2026)*
