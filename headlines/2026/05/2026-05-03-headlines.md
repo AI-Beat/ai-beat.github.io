@@ -1,0 +1,7 @@
+# AI Headlines — 2026-05-03
+
+- [VS Code 1.118 adds Copilot as git co-author by default](https://code.visualstudio.com/updates/v1_118) — Released April 29, VS Code 1.118 changed `git.addAICoAuthor` from off to "all", automatically inserting `Co-Authored-By: GitHub Copilot` trailers into commits; the feature fires even when `chat.disableAIFeatures` is set, has already touched 4M+ GitHub commits, and raises copyright ambiguity since the US Copyright Office has ruled non-human authors cannot hold copyright. Team committed to fixing bugs in 1.119. *(April 29, 2026)*
+
+- [Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation](https://arxiv.org/abs/2604.24763) — Meta AI paper showing a 7B unified multimodal model (built on Qwen2.5-7B-Instruct) trained end-to-end on 550M raw image-text pairs with no CLIP-style vision encoder achieves GQA 65.0 and OCRBench 79.7, edging out its own encoder-based variant (Tuna-R) at scale on fine-grained perception, while reaching competitive GenEval (0.87) and DPG-Bench (86.54) generation scores. *(April 27, 2026)*
+
+- [World-R1: Reinforcing 3D Constraints for Text-to-Video Generation](https://arxiv.org/abs/2604.24764) — Microsoft Research paper applying reinforcement learning to bake 3D geometric constraints into video generation; trains on specialized text datasets with 3D-consistency rewards, maintaining visual quality while improving spatial coherence across frames. *(April 27, 2026)*
