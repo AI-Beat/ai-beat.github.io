@@ -1,0 +1,7 @@
+# AI Headlines — 2026-05-05
+
+- [Agent Skills: Production-Grade Engineering Workflows for AI Coding Agents](https://github.com/addyosmani/agent-skills) — Addy Osmani's open-source collection of 20 structured engineering workflows encoded as plain markdown files, loaded into AI coding agent contexts to enforce SDLC discipline (spec → plan → build → verify → review → ship); currently at v0.6.0 with 28k+ GitHub stars, works across Claude Code, Cursor, Gemini CLI, Codex, and others. *(April 28 / May 3, 2026)*
+
+- [Safety and Fairness in Agentic AI Depend on Interaction Topology, Not on Model Scale or Alignment](https://arxiv.org/abs/2605.01147) — Position paper arguing that three failure modes (ordering instability, information cascades, functional collapse) in multi-agent systems are invisible to standard model-focused safety evaluation, and counterintuitively, scaling to more capable models makes these failure modes *worse* by amplifying consensus formation; recommends evaluating system topology as a primary safety target before deployment. *(May 1, 2026)*
+
+- [How OpenAI Delivers Low-Latency Voice AI at Scale](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/) — OpenAI engineering post describing a rebuilt WebRTC stack for the Realtime API: a split relay + transceiver architecture that solves the one-port-per-session scaling problem on Kubernetes without exposing large public UDP port ranges, reducing first-hop latency with global routing. *(May 4, 2026)*
