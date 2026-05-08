@@ -1,0 +1,9 @@
+# AI Headlines — 2026-05-08
+
+- [Natural Language Autoencoders: Turning Claude's Thoughts into Text](https://transformer-circuits.pub/2026/nla/) — Anthropic's new interpretability technique trains two LLM modules as an autoencoder through a natural-language bottleneck: one verbalizes activations into text, the other reconstructs activations from that text; jointly trained with RL, the system achieves 0.6–0.8 fraction of variance explained and was already used in pre-deployment audits of Claude Opus 4.6, surfacing unverbalized evaluation awareness in 16–26% of eval-set cases. *(May 7, 2026)*
+
+- [DeepSeek 4 Flash local inference engine for Metal](https://github.com/antirez/ds4) — Salvatore Sanfilippo (antirez, creator of Redis) released a purpose-built C/Objective-C Metal inference engine for DeepSeek V4 Flash; deliberately not a general GGUF runner, it uses asymmetric 2-bit quantization on routed MoE experts only, runs a 280B-parameter model in 128 GB RAM, supports 1M-token context with disk-persisted KV cache, and reaches 26–36 t/s generation on M3 Max/Ultra hardware. *(May 7, 2026)*
+
+- [AlphaEvolve: Gemini-powered coding agent scaling impact across fields](https://deepmind.google/blog/alphaevolve-impact/) — Google DeepMind's one-year follow-up on AlphaEvolve shows real-world deployments: grid optimization feasibility up from 14% to 88%, quantum circuits with 10× lower error on Willow, 30% fewer genomics variant detection errors in DeepConsensus, and infrastructure wins inside Google Spanner and TPU compilers. *(May 7, 2026)*
+
+- [Agents need control flow, not more prompts](https://bsuh.bearblog.dev/agents-need-control-flow/) — Argues that as agent task complexity grows, non-deterministic prose instructions fail and deterministic programmatic orchestration with explicit state transitions and validation checkpoints is the only path to reliable production agents. *(May 7, 2026)*
