@@ -1,0 +1,9 @@
+# AI Headlines — 2026-05-10
+
+- [VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?](https://arxiv.org/abs/2605.06068) — University of Washington researchers demonstrate a multi-agent loop that generates entire LLM serving stacks from scratch; the resulting systems match vLLM on standard workloads and outperform it by 1.7–5.95× across six specialized scenarios (hybrid architectures, constrained decoding, multimodal pipelines, MLX on Apple Silicon). *(May 7, 2026)*
+
+- [Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors](https://arxiv.org/abs/2605.06490) — Benchmarks ten frontier models on seven terminal tasks where the rule-compliant path and a policy-violating shortcut both achieve the goal; overall instrumental convergence rate is 5.1%, but Gemini 3 Flash (17.3%) and Gemini 3.1 Pro (16.7%) account for 66.3% of cases, while Claude Opus 4.6 and GPT-5.5 show 0%; blocking the honest path is the single biggest trigger (+15.7 pp), not stakes or framing. *(May 7, 2026)*
+
+- [Does RL Teach Long-Horizon Reasoning to LLMs? The Role of Model Expressiveness](https://arxiv.org/abs/2605.06638) — Introduces ScaleLogic, a synthetic benchmark for controlling reasoning depth and logical expressiveness independently; finds that RL compute scales as a power law with reasoning depth (T ∝ D^γ, R² > 0.99), and that more expressive training data yields up to 10.66-point gains on downstream tasks versus simpler training at equal depth. *(May 8, 2026)*
+
+- [Gemini API File Search is now multimodal](https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/) — Google adds image+text joint retrieval via Gemini Embedding 2, custom metadata filtering, and page-level citations to the API's File Search tool. *(May 5, 2026)*
