@@ -1,0 +1,9 @@
+# AI Headlines — 2026-05-11
+
+- [AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](https://arxiv.org/abs/2605.06651) — DeepMind introduces a hierarchical multi-agent workbench for mathematics research that scores 48% on FrontierMath Tier 4 (vs 19% for the base Gemini model alone); a reviewer agent flagged a proof flaw that let Marc Lackenby resolve Problem 21.10 from the Kourovka Notebook, a 60-year-old open question in group theory. *(May 7, 2026)*
+
+- [STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?](https://arxiv.org/abs/2605.06527) — Benchmark of 400 expert-validated implicit-conflict scenarios (1,200 queries, up to 150K context) finds the best frontier model tops out at 55.2% overall accuracy at detecting when stored agent memories have been silently invalidated by later events; the core failure mode is accepting queries that embed stale assumptions rather than resisting them. *(May 7, 2026)*
+
+- [Recursive Agent Optimization](https://arxiv.org/abs/2605.06639) — Reinforcement learning method that trains LLMs to spawn and delegate sub-tasks to recursive instantiations of themselves; trained agents generalize to problems harder than their training distribution and handle tasks that exceed the base context window through divide-and-conquer, reducing wall-clock execution time versus single-agent approaches. *(May 7, 2026)*
+
+- [Where's the Plan? Locating Latent Planning in Language Models with Lightweight Mechanistic Interventions](https://arxiv.org/abs/2605.07984) — Probing rhyming-couplet completion across three model families finds that future-rhyme information is linearly decodable at line boundaries in all models, but only Gemma-3-27B actually uses that information causally; the causal driver migrates from the rhyme word to the line boundary around layer 30, traced to five specific attention heads. *(May 8, 2026)*
