@@ -1,0 +1,7 @@
+# AI Headlines — 2026-05-12
+
+- [cuda-oxide: NVIDIA's Experimental Rust-to-CUDA Compiler](https://nvlabs.github.io/cuda-oxide/index.html) — NVlabs releases v0.1.0 of cuda-oxide, an experimental compiler that translates standard Rust (no DSLs, no FFI) to NVIDIA PTX via a custom rustc codegen backend and Pliron IR; supports SIMT kernels with shared memory, warp ops, TMA, clusters, and atomics; alpha-stage, Linux only, requires nightly Rust and LLVM 21+. *(May 7, 2026)*
+
+- [Running local models on an M4 with 24GB memory](https://jola.dev/posts/running-local-models-on-m4) — Detailed practical account of fitting a capable LLM on a consumer MacBook Pro M4: after discarding models that technically fit but ran too slowly, settled on Qwen3.5-9B at 4-bit quant via LM Studio, hitting ~40 t/s with 128K context and workable tool use; notes that local models demand more interactive back-and-forth than cloud alternatives. *(May 10, 2026)*
+
+- [Interfaze: A new model architecture built for high accuracy at scale](https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale) — Startup announces a hybrid DNN/CNN + transformer architecture targeting deterministic tasks (OCR, transcription, structured extraction) rather than general language; claims 100× accuracy over general models on specialized benchmarks and 1.5× faster transcription than Deepgram Nova-3; currently in beta. *(May 12, 2026)*
