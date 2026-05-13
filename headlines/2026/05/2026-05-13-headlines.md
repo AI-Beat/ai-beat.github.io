@@ -1,0 +1,7 @@
+# AI Headlines — 2026-05-13
+
+- [Needle: Distilling Gemini Tool Calling into a 26M Model](https://github.com/cactus-compute/needle) — Cactus Compute releases a 26M-parameter open-source model for on-device function calling that removes all feed-forward networks from the transformer, replacing them with additional attention layers and gated residuals; the architecture bet is that tool calling is fundamentally a retrieval-and-routing task, not a reasoning one; pretrained on 200B tokens and post-trained on 2B synthetic function-calling tokens, it runs at 6000 tok/s prefill on consumer hardware. *(May 12, 2026)*
+
+- [TokenHD: Token-Level Hallucination Detection at Scale](https://arxiv.org/abs/2605.12384) — A 0.6B-parameter specialist detector for free-form LLM hallucinations that operates at the token level without needing predefined step segmentation or generation-time probability data; a small importance-weighted training recipe yields a detector that outperforms QwQ-32B on hallucination detection benchmarks. *(May 12, 2026)*
+
+- [Statewright: Visual State Machines for AI Agents](https://github.com/statewright/statewright) — An MCP-integrated framework that enforces deterministic state machine constraints over AI coding agents (Claude Code, Codex, Cursor); a Rust engine with no LLM involvement decides which tools are accessible per workflow phase; claim is SWE-bench subset completion jumping from 20% to 100% on smaller models. *(May 2026)*
