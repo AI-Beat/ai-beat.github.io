@@ -1,0 +1,9 @@
+# AI Headlines — 2026-06-04
+
+- [Gemma 4 12B: A unified, encoder-free multimodal model](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) — Google DeepMind releases an open-weight 12B model that eliminates separate vision/audio encoders entirely, feeding raw patches and waveforms directly into the LLM backbone; runs with Q4 weights (~6.7 GB) on 16 GB of RAM, 256K context, Apache 2.0. *(June 3, 2026)*
+
+- [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude) — Anthropic engineering post on sandboxing strategies for claude.ai (gVisor ephemeral containers), Claude Code (OS-level Seatbelt/bubblewrap with user approval gates), and Claude Cowork (full VMs); describes real vulnerabilities found including a config-parsing-before-trust bug and a 24/25 prompt injection that exfiltrated AWS credentials in a Feb 2026 red-team. *(June 3–4, 2026)*
+
+- [I built a vulnerable app and spent $1,500 seeing if LLMs could hack it](https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/) — Developer runs multiple frontier models against an intentionally vulnerable application to measure autonomous exploitation capability; documents costs, which models succeeded and which stalled, and what that implies for attacker economics. *(June 4, 2026)*
+
+- [Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes](https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html) — UC Berkeley CS professors report increasing failure rates and declining mathematical fluency they attribute to students offloading foundational work to AI coding assistants. *(June 4, 2026)*
