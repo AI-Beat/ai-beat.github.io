@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-08
+
+- [NVIDIA RTX Spark: Blackwell GPU + 20-core Arm CPU + 128 GB unified memory in a laptop SoC](https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark) — NVIDIA enters the PC SoC market with the RTX Spark superchip: 6,144 CUDA Blackwell cores, 20-core Grace CPU co-designed with MediaTek, 128 GB LPDDR5X at 300 GB/s, NVLink-C2C interconnect; can run 120B-parameter models with 1M-token context locally; full CUDA/TensorRT/FP4 stack, falls 2026 devices from Dell, HP, ASUS, Microsoft Surface. *(June 1, 2026)*
+
+- [Perplexity hybrid local-cloud inference orchestrator: a compact local router decides what stays on device](https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine) — Announced at Computex 2026 with Intel; a small on-device model classifies each subtask by data sensitivity and compute requirements, routing privacy-sensitive work locally and heavy tasks to frontier cloud models — no user configuration required; shipping in Perplexity Computer July 2026; chip-agnostic (Intel Core Ultra Series 3 and NVIDIA RTX Spark confirmed). *(June 2, 2026)*
