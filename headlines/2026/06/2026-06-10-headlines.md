@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-10
+
+- [OpenCV 5.0: rewritten DNN engine, native LLM/VLM support, 80%+ ONNX operators](https://opencv.org/opencv-5/) — The 25-year-old computer vision library ships a ground-up rewrite of its DNN module: typed operation graph with proper shape inference and constant folding, ONNX operator coverage jumping from ~22% to 80%+, and native LLM/VLM inference (Qwen 2.5, Gemma 3, PaliGemma) with built-in tokenizer and KV-cache; hardware acceleration via Arm KleidiCV, Qualcomm FastCV, Intel IPP, and RISC-V Vector. *(June 6, 2026)*
+
+- [Microsoft disables 70+ GitHub repos after "Miasma" credential-stealer infects Azure and AI developer tool projects](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/) — Malware designed to steal developer credentials was injected into repositories associated with Azure cloud services and tools used with Claude Code, Gemini CLI, and VS Code; a small number of developers were notified; follows a similar breach of Microsoft's Durable Task project in mid-May. *(June 8, 2026)*
