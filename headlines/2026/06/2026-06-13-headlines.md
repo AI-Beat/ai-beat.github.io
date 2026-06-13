@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-13
+
+- [Statement on US government directive to suspend access to Fable 5 and Mythos 5](https://www.anthropic.com/news/fable-mythos-access) — US Commerce Department issued an export control directive at 5:21 PM ET on June 12 ordering Anthropic to disable its two most capable models globally, citing a narrow jailbreak discovered in Fable 5 that could unlock Mythos 5's autonomous offensive cybersecurity capabilities; Anthropic disputes the decision as disproportionate and says the same vulnerability exists in competitor models like GPT-5.5. *(June 12, 2026)*
+
+- [Moonshot AI releases Kimi K2.7-Code: 1T-parameter MoE coding model with 30% fewer reasoning tokens](https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/) — 1T-param MoE (32B active, 384 experts, 256K context) improves +21.8% on Kimi Code Bench v2 over K2.6 while using roughly 30% fewer reasoning tokens; weights on HuggingFace under Modified MIT; all three primary benchmarks are vendor-measured. *(June 12, 2026)*
