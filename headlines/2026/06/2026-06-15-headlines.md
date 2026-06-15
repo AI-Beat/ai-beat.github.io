@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-15
+
+- [Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model](https://github.com/nex-agi/Nex-N2/issues/4) — Rio-3.5-Open-397B, released by IplanRIO under MIT license with claims of frontier-tier performance, is a direct element-wise merge of Nex-N2_pro (60%) and Qwen3.5-397B-A17B (40%); every weight tensor across all 60 layers shows the exact same 0.6/0.4 blend; when the system prompt is stripped, the model introduces itself as Nex; Rio's team says they "accidentally uploaded the wrong version." *(June 14–15, 2026)*
+
+- [I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models](https://iliashaddad.com/blog/i-indexed-669-gb-of-my-gopro-videos-using-my-m1-max-computer) — Personal project using Whisper for audio transcription and Qwen2.5-VL-7B-Instruct for scene description, all running locally on Apple Silicon; processes 628 videos in 67 hours 40 minutes with semantic search across multimodal embeddings; integrates with DaVinci Resolve for timeline export. *(June 12, 2026)*
