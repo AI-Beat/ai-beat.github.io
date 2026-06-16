@@ -1,0 +1,7 @@
+# AI Headlines — 2026-06-16
+
+- [LiteLLM vulnerability chain lets low-privilege users take over AI gateway servers](https://www.obsidiansecurity.com/blog/litellm-privilege-escalation-rce) — Obsidian Security disclosed three chained CVEs (2026-47101, 2026-47102, 2026-40217) in LiteLLM, the open-source proxy that brokers calls to 100+ model providers: an unvalidated `allowed_routes` field lets any user mint an admin-scoped key, a missing field check lets them set their own role to `proxy_admin`, and a guardrail `exec()` sandbox escape then gives full RCE — enough to rewrite LLM responses in-flight and inject forged tool calls into downstream agents like Claude Code. CVSS 9.9; fixed by v1.83.14-stable (May 2). *(June 11–15, 2026)*
+
+- [GitOfThoughts: storing an LLM agent's reasoning tree as a git repository](https://arxiv.org/abs/2606.14470) — Each scored thought becomes a commit, outcomes become tags, retrieval works like `git log`; tested against markdown, vector, and graph memory substrates and found none reliably improve accuracy on novel problems — gains only appear when retrieved cases are near-duplicates (similarity >0.8), i.e. answer lookup rather than method transfer. *(June 12, 2026)*
+
+- [Cohere releases North Mini Code, its first open-weight agentic coding model](https://cohere.com/blog/north-mini-code) — 30B MoE (3B active), 256K context, Apache 2.0, runs on a single H100 at FP8; claims up to 2.8x the output throughput of Devstral Small 2 with 30% lower inter-token latency. *(June 9, 2026)*
