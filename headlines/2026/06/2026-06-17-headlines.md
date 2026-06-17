@@ -1,0 +1,9 @@
+# AI Headlines — 2026-06-17
+
+- [Running Local Models Is Good Now](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/) — Vicki Boykis walks through her current local-inference stack on an M2 Mac (64 GB RAM): LM Studio, Pi agent harness, Docker sandboxing, Gemma 4 and Qwen 3 MoE as workhorses — and concludes that agentic coding locally now runs at "~75% the accuracy/speed of frontier models." The inflection point was GPT-OSS; the tooling maturity is the real story. *(June 15, 2026)*
+
+- [Qwen-Robot Suite: Three Foundation Models for Embodied AI](https://qwen.ai/news/qwen-robot-suite) — Alibaba releases Qwen-RobotNav (navigation + tracking), Qwen-RobotManip (arm manipulation, trained on 38,100 hours of open-source data), and Qwen-RobotWorld (a world model predicting future physical states from language-action pairs) — unified state-action representations across robot morphologies rather than task-specific architectures. *(June 16–17, 2026)*
+
+- [Wolfram Language and Mathematica Version 15](https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/) — Adds a built-in AI assistant to every notebook (Basic/Pro/Research tiers), the Wolfram Agent Tools framework for connecting desktop Wolfram to Claude Code and Codex, and uses the 7,000+ built-in primitives as a precision intermediary between humans and AI — verifiable code generation rather than opaque natural-language responses. *(June 16, 2026)*
+
+- [GPT-NL: A Sovereign Language Model for the Netherlands](https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/) — TNO, SURF, and NFI's Dutch-language open model enters its pilot phase with government agencies; trained entirely on legally obtained data, €13.5 M funded by Netherlands Enterprise Agency; open-source code, controlled-license weights; broader SaaS rollout targeted for H2 2026. *(June 2026)*
