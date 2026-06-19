@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-19
+
+- [Enterprise-Managed Authorization: Zero-touch OAuth for MCP](https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/) — The MCP spec stabilizes Enterprise-Managed Authorization: admins configure an MCP server once in their IdP (Okta first), users inherit access automatically on first login via an Identity Assertion JWT Authorization Grant (ID-JAG), no per-server consent screens. Supported in Claude, Claude Code, VS Code 1.123; Figma, Linear, Asana, Atlassian, Canva, Supabase at launch. *(June 18, 2026)*
+
+- [The Token Compression Illusion: Why I'm Skeptical of RTK](https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/) — Przemek Mroczek argues RTK's "cut token usage by 60-90%" claim measures only compressed CLI output, ignoring system prompts, file reads, and repo context — the actual cost drivers; RTK strips context silently without notifying the agent; no task success rate data is published; and the tool is fragile to minor CLI output format changes in git, cargo, npm etc. *(June 18, 2026)*
