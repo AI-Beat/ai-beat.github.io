@@ -1,0 +1,5 @@
+# AI Headlines — 2026-06-21
+
+- [Project Fetch: Phase Two](https://www.anthropic.com/research/project-fetch-phase-two) — Claude Opus 4.7, operating without human assistance, completed a four-task robotic quadruped challenge 18.9× faster than a human team aided by Opus 4.1 and 37.7× faster than an unaided team, generating 1,045 lines of code that worked on the first try vs. 10,309 from the human team — though the robot still couldn't autonomously retrieve the beach ball due to closed-loop precision control limits. *(June 18, 2026)*
+
+- [Temporary Cloudflare accounts for AI agents](https://blog.cloudflare.com/temporary-accounts/) — Cloudflare's Wrangler CLI adds `--temporary` flag: running `wrangler deploy --temporary` provisions a fresh Cloudflare account with an API token, deploys a Worker, and gives a 60-minute window to claim the account permanently (or let it expire automatically) — removing the last browser-based OAuth friction that had been blocking agents from autonomous write-deploy-verify loops. *(June 19, 2026)*
