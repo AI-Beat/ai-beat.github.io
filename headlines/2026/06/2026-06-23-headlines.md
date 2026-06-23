@@ -1,0 +1,7 @@
+# AI Headlines — 2026-06-23
+
+- [Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance](https://arxiv.org/abs/2606.19195) — ECCV'26 paper from HUST's vision lab: a 0.22B diffusion inpainting model that matches FLUX.1-Fill-Dev (11.9B) on six benchmarks at 15× the inference speed; key techniques are Local-λ Mix Interaction blocks (fixed-size linear matrices replacing quadratic spatial attention) and adaptive multi-granularity latent-space distillation; weights released June 18. *(June 17, 2026)*
+
+- [Tapered Language Models](https://arxiv.org/abs/2606.23670) — Fresh finding: allocating more parameters to early transformer layers and fewer to late ones (via a cosine MLP-width schedule) consistently improves performance across 3 model scales and 4 architectures at no additional cost; later layers primarily refine the residual stream rather than transform it, so equal capacity allocation is the wrong default. *(June 22, 2026)*
+
+- [VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models](https://arxiv.org/abs/2606.16140) — WeiboAI (Sina Weibo's AI division) releases a 3B dense model that scores 94.3 on AIME26 (97.1 with test-time scaling) and 80.2 Pass@1 on LiveCodeBench v6 via a Spectrum-to-Signal post-training pipeline: curriculum SFT, GRPO-style RL weighted toward capability-boundary problems (group accuracy ≈ 0.5), and offline self-distillation. *(June 15, 2026)*
