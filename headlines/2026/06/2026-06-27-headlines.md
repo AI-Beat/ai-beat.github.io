@@ -1,0 +1,9 @@
+# AI Headlines — 2026-06-27
+
+- [Prediction: A Frontier Open Source LLM Will Be Released On 3rd December 2026](https://blog.doubleword.ai/frontier-os-llm) — Doubleword's analysis extrapolates from the Artificial Analysis Intelligence Index to predict open-source will reach frontier parity by December 3, 2026 — but averaging across 18 benchmarks the gap holds at a stable ~5 months; coding closed fastest (15 months behind → 1–2 months), reasoning and science lag considerably more. *(June 22, 2026)*
+
+- [The Verification Horizon: No Silver Bullet for Coding Agent Rewards](https://arxiv.org/abs/2606.26300) — Qwen paper argues that no fixed reward function can stay effective as policy capability grows; tests that once served as faithful verifiers become hackable as agents get stronger; four task types need four different verification strategies, and verification must co-evolve with the generator. *(June 24, 2026)*
+
+- [JetSpec: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting](https://arxiv.org/abs/2606.18394) — Draft head trained to produce candidate token trees aligned with the target model's autoregressive factorization achieves up to 9.64× speedup on MATH-500 and 4.58× on conversational workloads vs. baseline; tested on dense and MoE Qwen3 models; integrates with vLLM. *(June 25, 2026)*
+
+- [AI in mathematics is forcing big questions](https://spectrum.ieee.org/ai-in-mathematics) — IEEE Spectrum surveys the field after AI reached gold-medal level at IMO and started producing publishable proofs; the community splits between those who see AI as an oracle, those who see mathematics as a human practice that needs human struggle, and Terence Tao's "big mathematics" vision of large-scale human-AI collaboration where machines handle formalization and humans supply creative direction. *(June 25, 2026)*
