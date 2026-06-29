@@ -1,0 +1,9 @@
+# AI Headlines — 2026-06-29
+
+- [Herdr v0.7.1: Agent Multiplexer for the Terminal](https://github.com/ogulcancelik/herdr) — A Rust-built terminal multiplexer designed for AI coding agents — think tmux, but with first-class agent-state awareness (blocked/working/done/idle), a socket API so agents can orchestrate themselves, and persistent SSH sessions; supports Claude Code, Devin, Cursor Agent, and 15+ other tools. *(June 24, 2026)*
+
+- [Lore (rac-core 2026.06.5): Requirements as Code for Coding Agents](https://github.com/itsthelore/rac-core) — Open-source MCP server + CLI that stores team decisions as typed Markdown in your repo and serves them read-only to coding agents, preventing agents from re-litigating settled questions; the local proxy intercepts API calls without changing your workflow and exports distilled knowledge to `.lore.md`. *(June 27, 2026)*
+
+- [Tokenmaxxing Is Dead, Long Live Tokenmaxxing](https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing) — Analysis argues that cheap open-weight models (GLM-5.2 at ~1/6 the frontier price) flip the agent economics: previous era had compounding errors from more tokens, current era has compounding correctness, making unsupervised looping agents economically viable at scale; cybersecurity framed as a computational arms race where you spend tokens finding exploits before attackers do. *(June 27, 2026)*
+
+- [GLM 5.2 Beats Claude on Semgrep's Cybersecurity Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) — Semgrep tested GLM-5.2 on IDOR vulnerability detection with no custom scaffolding; it scored 39% F1 vs. Claude Code's 32% at $0.17 per vulnerability found, though Semgrep's multimodal pipeline still led at 61%; notable because the gap closed with zero tool-calling infrastructure. *(June 22, 2026)*
