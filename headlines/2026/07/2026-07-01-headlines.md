@@ -1,0 +1,7 @@
+# AI Headlines — 2026-07-01
+
+- [Claude Code Is Steganographically Marking Requests](https://thereallo.dev/blog/claude-code-prompt-steganography) — A developer reverse-engineered Claude Code's client JavaScript and found it silently substitutes visually identical Unicode apostrophes in system prompts to fingerprint requests routed through custom API base URLs; the encoding signals whether the base URL is in a list of 100+ domains (Chinese AI labs, resellers) and whether the system timezone is Chinese. *(June 29, 2026)*
+
+- [TabFM: A Zero-Shot Foundation Model for Tabular Data](https://research.google/blog/introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data) — Google Research publishes a foundation model for tabular classification and regression that uses alternating row/column attention, row compression, and an ICL Transformer, trained on hundreds of millions of synthetic datasets; beats gradient-boosted trees on TabArena (51 datasets) with zero task-specific tuning. *(June 30, 2026)*
+
+- [Meta Brain2Qwerty v2: Non-Invasive Brain-to-Text at 61% Word Accuracy](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/) — Meta AI's latest BCI decoder reads magnetoencephalography signals from participants wearing MEG headsets while typing, reaching 61% word accuracy end-to-end (up from 8% for other non-invasive methods); fine-tuned LLMs provide semantic context over raw neural signals; training code open-sourced, paper published in Nature Neuroscience. *(June 29, 2026)*
