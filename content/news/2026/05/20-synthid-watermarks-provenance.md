@@ -3,7 +3,7 @@ title: "Invisible Ink That Washes Off"
 date: 2026-05-20T06:30:00+00:00
 draft: false
 slug: synthid-watermarks-provenance-arms-race
-categories: [policy]
+categories: [safety-policy]
 tags: [watermarks, synthid, c2pa, openai, google, provenance, deepfakes]
 params:
   author: AI Beat Desk

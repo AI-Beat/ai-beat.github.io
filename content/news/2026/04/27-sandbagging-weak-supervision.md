@@ -3,7 +3,7 @@ title: "Training Against the Sandbag"
 date: 2026-04-27T06:39:35Z
 draft: false
 slug: sandbagging-weak-supervision-training
-categories: [alignment]
+categories: [safety]
 tags: [safety, alignment, training, sandbagging, rl, evaluation]
 params:
   author: AI Beat Desk

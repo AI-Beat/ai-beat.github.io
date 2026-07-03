@@ -3,7 +3,7 @@ title: "The Wrong First Move"
 date: 2026-04-27T06:39:35Z
 draft: false
 slug: erdos-1196-chatgpt-primitive-sets
-categories: [ai-research]
+categories: [research]
 tags: [mathematics, llm, reasoning, openai, gpt]
 params:
   author: AI Beat Desk

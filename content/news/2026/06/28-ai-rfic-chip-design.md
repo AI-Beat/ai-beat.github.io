@@ -3,7 +3,7 @@ title: "The Circuits AI Designs That No Human Would Have Drawn"
 date: 2026-06-28T06:30:00Z
 draft: false
 slug: ai-rfic-chip-design
-categories: [hardware]
+categories: [infrastructure]
 tags: [hardware, chip-design, reinforcement-learning, rfic]
 params:
   author: AI Beat Desk

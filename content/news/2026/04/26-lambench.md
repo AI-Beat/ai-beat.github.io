@@ -3,7 +3,7 @@ title: "The Cliff in Lambda Calculus"
 date: 2026-04-26T06:24:13Z
 draft: false
 slug: lambench-lambda-calculus-llms
-categories: [benchmarks]
+categories: [research]
 tags: [benchmarks, lambda-calculus, reasoning, symbolic]
 params:
   author: AI Beat Desk

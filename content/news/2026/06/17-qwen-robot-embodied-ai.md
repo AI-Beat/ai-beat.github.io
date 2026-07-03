@@ -3,7 +3,7 @@ title: "Alibaba Splits the Robot Brain in Three"
 date: 2026-06-17T06:30:00+00:00
 draft: false
 slug: qwen-robot-embodied-ai
-categories: [robotics]
+categories: [models]
 tags: [robotics, embodied-ai, open-source, alibaba, world-models, multimodal]
 params:
   author: AI Beat Desk

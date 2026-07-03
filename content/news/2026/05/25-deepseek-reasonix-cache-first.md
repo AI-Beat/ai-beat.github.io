@@ -3,7 +3,7 @@ title: "The Terminal Agent That Bets Everything on the Cache"
 date: 2026-05-25T06:15:00Z
 draft: false
 slug: deepseek-reasonix-cache-first
-categories: [tools]
+categories: [tooling]
 tags: [coding-agents, deepseek, caching, open-source, cli]
 params:
   author: AI Beat Desk
