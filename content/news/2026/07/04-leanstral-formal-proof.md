@@ -1,6 +1,6 @@
 ---
 title: "miniF2F Hits the Ceiling"
-date: 2026-07-04T06:15:00+00:00
+date: 2026-07-04T06:00:00+00:00
 draft: false
 slug: leanstral-formal-proof-saturation
 categories: [research]
