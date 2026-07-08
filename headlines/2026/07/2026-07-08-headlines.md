@@ -1,0 +1,3 @@
+# AI Headlines — 2026-07-08
+
+- [AI Meets Cryptography: What AI Found in Cloudflare's CIRCL](https://blog.zksecurity.xyz/posts/circl-bugs/) — zkSecurity's AI audit pipeline (Claude Opus 4.6, GPT-5.3, plus their zkao agent) ran against Cloudflare's experimental CIRCL crypto library and found seven genuine bugs — float64 precision loss in threshold RSA, DLEQ proof forgery, a CP-ABE access-control break, and four others — all now fixed upstream; the piece also documents AI's systematic severity-rating asymmetries and why model-level conclusions don't survive retest a few weeks later. *(July 7, 2026)*
