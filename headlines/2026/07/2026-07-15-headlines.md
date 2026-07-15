@@ -1,0 +1,9 @@
+# AI Headlines — 2026-07-15
+
+- [Bonsai 27B: 1-bit and ternary builds of Qwen3.6-27B that run on phones and laptops](https://prismml.com/news/prismml-releases-bonsai-27b) — PrismML releases two extreme-compression variants of Qwen3.6-27B under Apache 2.0: a 1-bit binary build at 3.9 GB that runs at 11 tok/s on an iPhone 17 Pro (retaining >90% of full-precision benchmarks) and a ternary {-1, 0, +1} build at 5.9 GB that retains >95% and hits 87 tok/s on an M5 Max. *(July 14, 2026)*
+
+- [Cursor 0day: When Full Disclosure Becomes the Only Protection Left](https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left) — Mindgard published after 7 months of silence from Cursor: if a repository contains a malicious `git.exe` in its root, Cursor on Windows auto-executes it during normal project load — no clicks, no prompts. Still unpatched in version 3.2.16. *(July 14, 2026)*
+
+- [DuneSlide: Two Critical RCE vulnerabilities via Zero-Click Prompt Injection in Cursor IDE](https://www.catonetworks.com/blog/duneslide-two-critical-rce-vulnerabilities/) — Cato AI Labs' Itay Ravia detailed how prompt injection from an MCP server or web search result can cause Cursor's agent to overwrite the `cursorsandbox` binary and achieve unsandboxed OS-level RCE (CVE-2026-50548, CVE-2026-50549, CVSS 9.8); Cursor initially rejected the report before quietly patching it in Cursor 3.0. *(July ~14, 2026)*
+
+- [Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE](https://juggler.studio/) — Julian Storer's visual workbench for coding agents: a tree of branching threads rather than a linear chat transcript, inspectable tool calls, and a JavaScript plugin architecture where context items, slash commands, and LLM loop strategies are user-forkable extensions. *(July 14–15, 2026)*
