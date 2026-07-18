@@ -1,0 +1,7 @@
+# AI Headlines — 2026-07-18
+
+- [The State of Open Source AI — V1.0 (Mozilla, July 2026)](https://stateofopensource.ai/) — Mozilla's inaugural report documents the open-source AI ecosystem with hard numbers: the performance gap with closed models sits at 3.3%, open weights drive 1/3 of real-world traffic but capture only 4% of revenue, and 79% of developers use open models while only 51% deploy them in production. The most striking finding: the "agentic harness" layer between people and models affects benchmark outcomes more than the model itself. *(July 14, 2026)*
+
+- [LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget](https://arxiv.org/abs/2607.14952) — Addresses the growing gap between inference context lengths (millions of tokens) and RL post-training limits (typically capped at 256K); LongStraw reaches 2.1M-token training on 8 H20 GPUs via a GRPO-based execution stack with architecture-aware memory optimizations (shared prompt evaluation, state retention, sequential response replay). *(July 16, 2026)*
+
+- [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2607.14777) — Attacks the "supervision gap" in agent RL training: the policy analyzes its own completed trajectories to synthesize natural-language "hindsight skills," then re-scores on-policy actions under skill-augmented vs. ordinary context to produce dense token-level training signal alongside sparse episode rewards. *(July 16, 2026)*
