@@ -1,0 +1,5 @@
+# AI Headlines — 2026-07-19
+
+- [Closing the Oracle-Complexity Gap in Derivative-Free Convex Optimization](https://github.com/PhillipKerger/zero-order-bounds-lean-verification) — UC Berkeley IEOR researcher Phillip Kerger used GPT-5.6 Sol Pro over roughly four hours of chat sessions to prove an Omega(d²) lower bound for deterministic zeroth-order convex optimization on the unit ball, matching the complexity of a 30-year-old algorithm and closing the dimension-dependent gap; the proof is formalized in Lean 4. *(July 18–19, 2026)*
+
+- [AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/) — The author of "I Will Fucking Piledrive You If You Mention AI Again" returns with a darker dispatch from enterprise consulting: 0% success rate across 18 months of observed AI projects, executives gaming metrics by having LLMs loop-prompt themselves, and a coordination failure so complete that admitting the truth became individually career-threatening. *(July 18, 2026)*
