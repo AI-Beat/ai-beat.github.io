@@ -1,0 +1,9 @@
+# AI Headlines — 2026-07-23
+
+- [GigaToken: ~1000x faster language model tokenization](https://github.com/marcelroed/gigatoken) — Marcel Røed's Rust tokenizer hits 24 GB/s on a single CPU using SIMD-optimized pretokenization and aggressive pretoken caching — 500–1,000× faster than HuggingFace's tokenizers and up to 681× faster than tiktoken; drop-in replacement, available via `pip install gigatoken`. *(July 22, 2026)*
+
+- [Show HN: Cactus Hybrid — on-device models that know when they're wrong](https://github.com/cactus-compute/cactus-hybrid) — A confidence probe trained on Gemma 4's internal activations outputs a 0–1 score per completion; queries below the threshold route automatically to a cloud model. Handles 65–85% of queries on-device while matching Gemini 3.1 Flash-Lite overall; the probe generalizes to audio (0.79–0.88 AUROC) despite zero audio training. *(July 22, 2026)*
+
+- [White House accuses Moonshot of industrial-scale distillation of Anthropic's Fable for Kimi K3](https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/) — OSTP chief Michael Kratsios alleged Moonshot covertly used Anthropic's outputs at scale to train K3, citing a February Anthropic complaint tracking 3.4 million Claude conversations back to Moonshot accounts; Treasury Secretary Bessent threatened sanctions; K3 was observed calling itself "Claude" in at least one conversation. *(July 22, 2026)*
+
+- [Terence Tao digests the Jacobian Conjecture counterexample](https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/) — Tao's blog post explains the geometric structure underlying the AI-discovered three-dimensional counterexample, tracing the apparent "miraculous cancellations" to resultant theory and equivariance; he notes using an AI chatbot to discuss aspects and confirm calculations. *(July 21, 2026)*
