@@ -1,0 +1,9 @@
+# AI Headlines — 2026-07-24
+
+- [Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models](https://echo.tracerml.ai/) — TracerML (YC) launches Echo in public alpha: a single OpenAI-compatible endpoint that routes each request across a coordinated fleet of open-weight models using a parity-gated surrogate; matches Claude Fable on several benchmarks across 907 evaluated questions at roughly one-third the inference cost. *(July 24, 2026)*
+
+- [Why Software Factories Fail (or: harness engineering is not enough)](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md) — HumanLayer argues that lights-off coding automation fails not because of inadequate scaffolding but because models can't maintain codebase quality over time — RL has no fast oracle for architectural health, so it can't learn what "good design" means; the proposed fix is front-loading human alignment before agents write a line. *(July 24, 2026)*
+
+- [Startup founders urge U.S. government not to shut off Chinese open-weight AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992) — An open letter signed by hundreds of startup founders pushes back against proposals to restrict access to Chinese open-weight models like DeepSeek and Kimi K3, arguing that a ban would harm US AI competitiveness and innovation without meaningfully improving security. *(July 22, 2026)*
+
+- [Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models](https://arxiv.org/abs/2607.21433) — Linear probes on hidden states at layer 20, token 150 can predict whether a reasoning chain will converge before the token budget runs out (AUC 0.608); converged outputs hit 90.3% on AIME while non-converged ones score 6.6%, suggesting early-exit is a tractable route to adaptive compute allocation. *(July 24, 2026)*
