@@ -1,0 +1,5 @@
+# AI Headlines — 2026-07-30
+
+- [Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac](https://github.com/drumih/turbo-fieldfare) — TurboFieldfare, a Swift/Metal inference engine, keeps Gemma 4 26B-A4B's 1.35 GB shared core in RAM and streams routed experts from SSD via explicit pread I/O; achieves 5–6 tok/s on M2 and 31–35 tok/s on M5 Pro, passing interactive usability without loading the full 14.3 GB model weight set. *(July 29–30, 2026)*
+
+- [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://huggingface.co/blog/agent-intrusion-technical-timeline) — Hugging Face publishes a forensic breakdown of the July 9–13 agent intrusion first disclosed on July 16: 17,600 attacker actions across roughly 6,280 clusters, detailed attack vectors including HDF5 file-read exploits and Jinja2 template injection, and a notable aside that commercial AI APIs blocked incident response due to safety guardrails, so the forensic analysis ran on on-premise open-weight models. *(July 27, 2026)*
