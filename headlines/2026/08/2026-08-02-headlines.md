@@ -1,0 +1,7 @@
+# AI Headlines — 2026-08-02
+
+- [Postmortem for Lean Kernel Soundness Bug #14576](https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/) — Lean 4 creator Leonardo de Moura details how an AI-assisted "disproof" of the Collatz conjecture was actually an adversarial proof object that threaded through two independent bugs in Lean's type kernel and the external Nanoda verifier simultaneously; the kernel was patched within an hour, but de Moura warns "This is going to keep happening. AIs are really good at exploiting soundness bugs in the kernels." *(July 28 – August 1, 2026)*
+
+- [Running Kimi K3 on MI355X at Better Performance per Dollar Than B300](https://wafer.ai/blog/kimi-k3-mi355x) — Wafer.ai benchmarks Kimi K3 on AMD MI355X after fixing two ROCm-specific bugs (missing `top_k_renorm_prob` function, shape mismatch in the AITER MLA prefill kernel), achieving 952 tok/s/node and 48 tok/s/GPU-hr vs 7 tok/s/GPU-hr for B200 — a 6.8× cost advantage before speculative decoding, which adds another 2.2× single-stream improvement. *(July 31, 2026)*
+
+- [Why Is It All in the Kernel?](https://lawrencecpaulson.github.io/2026/07/30/Collatz.html) — Cambridge emeritus Lawrence Paulson uses the Lean kernel bug as a case for small-kernel HOL-style proof assistants; argues that complex inductive definitions built into the kernel (rather than derived from a minimal axiom set) expand the attack surface that adversarial proof objects can exploit. *(July 30, 2026)*
