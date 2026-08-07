@@ -1,0 +1,5 @@
+# AI Headlines — 2026-08-07
+
+- [AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market](https://newsroom.amd.com/news/amd-acquires-taalas-ai-inference/) — AMD buys Toronto-based Taalas, whose model-specific integrated circuits etch model weights into a mask-ROM section of silicon and serve Llama 3.1 8B at ~17,000 tokens/second — claimed 73× H200 at 1/10th the power — with HC2 targeting 20B parameters; AMD plans to pair Taalas chips with Instinct GPUs for disaggregated prefill/decode in Helios racks. *(August 6, 2026)*
+
+- [Humans missed 1 in 3 threats approving AI agent commands across 40k game runs](https://scalex.dev/blog/ai-agent-permissions-stats/) — A browser game of 40,000+ runs and 409,000 approval decisions shows humans miss one-third of malicious AI-agent commands; scope violations (AWS credentials, Kubernetes configs) are missed 35% of the time, and `npm run analyze` slips past 65% of reviewers — while Anthropic telemetry shows real users approve 93% of Claude Code permission prompts. *(August 6, 2026)*
