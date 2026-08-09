@@ -1,6 +1,6 @@
 ---
 title: "Muse Code Reads Your CLAUDE.md — and Sends It to Meta"
-date: 2026-08-09T06:30:00+00:00
+date: 2026-08-09T06:10:00+00:00
 draft: false
 slug: muse-code-claude-md-leakage
 categories: [security]

@@ -1,6 +1,6 @@
 ---
 title: "The Unix-Friendly LLM CLI Grows Up"
-date: 2026-08-09T06:20:00+00:00
+date: 2026-08-09T06:10:00+00:00
 draft: false
 slug: llm-0-32-reasoning-traces
 categories: [tools]
