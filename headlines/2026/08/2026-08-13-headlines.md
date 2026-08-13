@@ -1,0 +1,9 @@
+# AI Headlines — 2026-08-13
+
+- [DeepSeek V4 Pro 0813](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) — GA release of DeepSeek's 1.6T-parameter MoE flagship with 1M-token context; 49B active params per token; hybrid Compressed Sparse + Heavily Compressed Attention achieves 10% of V3.2's KV cache at 1M context; performance gains entirely from improved post-training rather than architecture changes. *(August 12, 2026)*
+
+- [Qwen3.8-2.4T-A95B Open Weights on Hugging Face](https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B) — Alibaba opens Qwen3.8-Max weights under the Qwen3.8-max license: 2.4T total / 95B active MoE with Gated DeltaNet + attention hybrid, 262K native context (extensible to 1M), 512 total experts (11 activated per token); first time Qwen has open-sourced a Max-class model. *(August 13, 2026)*
+
+- [Introducing Delta — Zed's multiplayer coding environment for agents](https://zed.dev/blog/introducing-delta) — Zed launches a private beta for Delta, a thread-centric workspace built on DeltaDB, a CRDT-based system that syncs code and conversation in real time; unlike git's commit snapshots, DeltaDB records every edit operation between commits and keeps comments permanently anchored to code as it evolves; agents participate as first-class thread members. *(August 12, 2026)*
+
+- [AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses](https://arxiv.org/abs/2608.12307) — Preprint from Salesforce/UIUC: a stronger model iteratively builds inference-time "harnesses" using 5% of validation data; applying these scaffolds to a weaker target model (without any fine-tuning) nearly doubles Theory-of-Mind accuracy from 0.49 to 0.91; gains come from converting unstable reasoning to deterministic code, input routing, and output format enforcement — not from longer chains of thought. *(August 12, 2026)*
