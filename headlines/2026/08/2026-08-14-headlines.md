@@ -1,0 +1,5 @@
+# AI Headlines — 2026-08-14
+
+- [GLM-5.3: Frontier Coding with Emergent Cyber Capabilities](https://z.ai/blog/glm-5.3) — Z.ai releases GLM-5.3, keeping the base model unchanged and deriving all gains from scaled-up post-training; coding performance up 50% over GLM-5.2; ExploitBench doubles from 24.4% to 54.4% as an emergent consequence of vulnerability-discovery training rather than deliberate targeting; 2,436 real-world vulnerabilities found across 269 open-source projects with 53 CVEs disclosed and 2,383 still under embargo; open weights delayed ~2 weeks for safety evaluation. *(August 14, 2026)*
+
+- [DeepSeek Harness developer preview: Everything is a plugin](https://deepseek.com/harness/en/) — DeepSeek open-sources Harness v0.1 under MIT, an agent framework where every component — model, tools, storage, agent loop, UI — is a plugin on the Cordis TypeScript meta-framework; ships four runtime modes (Standard, PTC, Minimal, Creation) and a companion Peking University research paper on the formal foundations of dynamic component composition. *(August 13, 2026)*
