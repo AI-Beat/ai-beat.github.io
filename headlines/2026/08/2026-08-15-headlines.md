@@ -1,0 +1,5 @@
+# AI Headlines — 2026-08-15
+
+- [Qwen3.8-27B Open Weights](https://huggingface.co/Qwen/Qwen3.8-27B) — Alibaba releases the 27B dense companion to the 2.4T Max, under Apache 2.0; 262K native context extensible to 1M, natively multimodal (text, images, multi-hour video), 90.3% on LiveCodeBench and 89.2% on GPQA Diamond; the first Qwen3.8-class model small enough to run on consumer hardware. *(August 14, 2026)*
+
+- [How Google is making private AI practical with homomorphic encryption](https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/) — Google describes four production uses of HEIR (Homomorphic Encryption Intermediate Representation), its open-source MLIR-based compiler that converts neural nets to run on encrypted ciphertexts: recommendation systems, credit-card fraud detection, network intrusion detection, and hotword detection — all without the server ever seeing plaintext inputs; hardware accelerator partnerships with Belfort, Niobium, Cornami, and Optalysys are narrowing the latency gap. *(August 14, 2026)*
