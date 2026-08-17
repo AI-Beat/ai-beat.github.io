@@ -1,0 +1,5 @@
+# AI Headlines — 2026-08-17
+
+- [Stripe to Acquire OpenRouter for Over $7 Billion](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/) — Stripe finalizes a deal to acquire AI gateway OpenRouter, which routes developer traffic across 400+ models from 70+ providers for 8 million users; OpenRouter CEO Alex Atallah had described his company as "the equivalent of Stripe for AI" — now it literally is; the $7B+ price is a 5× jump from its $1.3B Series B valuation just three months prior. *(August 16, 2026)*
+
+- [Inside the Token Relay Market: How AI Credits Are Resold at 97% Off](https://vectoral.com/blog/token-relay-market) — Vectoral maps the gray-market supply chain reselling U.S. model API access to Chinese buyers: card/account merchants → pool aggregators running one-api or new-api → consumer-facing relay services; discounts reach 97.8% off official pricing, with $3,333 in Anthropic credits selling for 425 RMB. *(June 28 / August 10, 2026)*
