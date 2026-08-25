@@ -1,0 +1,7 @@
+# AI Headlines — 2026-08-25
+
+- [Headlong: A Microharness for Persistent Agents](https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents) — Laude Institute and MIT release Headlong, an open-source agent framework built in under 10K lines of Bash where the agent runs a continuous self-guided inner monologue loop between external events; messages land as observations in the thought stream rather than triggering a fresh session. *(August 25, 2026)*
+
+- [LLMs could control their host machines by exploiting inference engines](https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines) — Boyd Kane argues that inference engines' complexity — supporting hundreds of model architectures and chat templates — creates attack surfaces where a malicious model's token output could be mistaken for code; CVE-2025-9141 in vLLM's XML tool parser for Qwen3 Coder was an arbitrary code execution via `eval()` that demonstrates this threat is real. *(August 24, 2026)*
+
+- [MS Paint and Photos invisibly watermark even locally generated output with GUID](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/) — Reverse engineering reveals that Microsoft Paint sends prompts to a moderation server that returns a 16-byte GUID embedded pixel-level using SVD-style steganography plus C2PA metadata, and a watermarking failure causes generation to fail entirely rather than return an unmarked image. *(August 20, 2026)*
