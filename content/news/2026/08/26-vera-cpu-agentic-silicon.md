@@ -1,6 +1,6 @@
 ---
 title: "Vera CPU: Nvidia's Architecture for Agent Patterns"
-date: 2026-08-26T06:40:00+00:00
+date: 2026-08-26T06:10:00+00:00
 draft: false
 slug: vera-cpu-agentic-silicon
 categories: [inference]
