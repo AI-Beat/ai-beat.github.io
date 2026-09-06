@@ -1,0 +1,28 @@
+---
+title: "Modeling LLM Dependence Like a Disease"
+date: 2026-09-06T06:11:37Z
+draft: false
+slug: llms-cognitive-virus
+categories: [research]
+tags: [research, society, cognitive-science, modeling]
+params:
+  author: AI Beat Desk
+  summary: >-
+    A preprint from Ricard Solé, Michael Levin, and collaborators applies SIR epidemic modeling to LLM adoption, finding that collective reinforcement dynamics produce nonlinear tipping points: once adoption crosses a critical threshold, small additional increases can trigger rapid population-level shifts toward persistent dependence, with potential for abrupt losses in aggregate cognitive competence.
+---
+
+There's a genre of AI criticism that leans heavily on the word "addiction" and waves at analogies to smartphones or social media without doing much analytical work. A preprint from Ricard Solé, Michael Levin, and seven co-authors [published September 3](https://arxiv.org/abs/2609.03344) is trying to do something more rigorous: actually formalize the epidemic analogy mathematically and see what it implies.
+
+The paper is called "Large-Language Models as a Cognitive Virus," which is admittedly a title designed to generate both attention and backlash. The metaphor is deliberately loaded. But under the provocation is a specific technical claim: that LLM adoption dynamics have the structure of a population-level transition, with nonlinear tipping points and bistability, rather than the gradual linear diffusion that most technology-adoption models assume.
+
+The model classifies users into three states borrowed from epidemiology: uncoupled (non-users), coupled (active users who could in principle stop), and persistently dependent (users whose cognitive workflows have been restructured around LLM access such that removal causes significant functional impairment). Transitions between states are governed by a transmission term—social contact with LLM users—and a recovery term that represents the probability of reversing dependence. The key structural feature the authors add is that the effective transmission rate isn't constant: it increases as collective LLM use rises, capturing the social and professional pressure that comes from using tools differently than your peers.
+
+This coupling is what produces the interesting dynamics. In a standard SIR model, adoption follows an S-curve and the final state depends smoothly on initial conditions. With collective reinforcement, there's a bifurcation: for low coupling strengths the system has a single stable state at moderate adoption, but above a critical coupling parameter a second stable state appears at high persistent dependence. Once adoption crosses a threshold, the system can flip rapidly to the high-dependence attractor, and recovery from that state is harder than preventing the transition in the first place. The authors call the resulting possibility of rapid population-level cognitive change an "abrupt loss of cognitive competence," which is a phrase that should probably be read carefully rather than either dismissed or panic-amplified.
+
+What does "cognitive competence" mean here exactly? The paper treats it somewhat abstractly—they're modeling the population distribution across dependence states, not measuring any specific skill. The implicit assumption is that persistent dependence on an external cognitive tool reduces the user's capacity to perform certain tasks without that tool. That's a reasonable prior, and there's some empirical support for external memory tools reducing internal memory consolidation, but it's not established that LLM use degrades the skills it assists in the way that GPS navigation degrades spatial navigation ability. The model assumes this is true; it doesn't establish it.
+
+The HN discussion that surfaced the paper engaged seriously with this gap. If LLMs augment cognition rather than replacing it—if using a tool makes the user more capable rather than less—then the "dependence" framing is wrong in the way that depending on calculus textbooks is not a meaningful loss of capability. The paper's authors would presumably respond that the effect depends on how the tool is used, and their framework applies to the substitution case rather than the augmentation case. That's a fair reply, but it shifts the interesting empirical question to whether current LLM use patterns look more like substitution or augmentation.
+
+The practical part of the paper is a set of conditions for what they call "cognitive immunization"—policy or design interventions that reduce transmission or increase reversibility. These include reducing social contagion (designing contexts where LLM non-use isn't professionally penalizing), building in deliberate practice of unassisted cognition, and scaffolding skills for evaluating LLM outputs critically. The recommendations are reasonable enough as a list, though moving from "here's a parameter in our model" to "here's an actionable policy" involves a lot of steps the paper doesn't take.
+
+The value of the paper is less in its conclusions than in establishing that the dynamics of cognitive tool adoption deserve quantitative modeling, that epidemic-style frameworks are a plausible formal language for that modeling, and that the resulting system might have qualitatively different behavior than naive linear diffusion would suggest. Whether LLMs specifically fit the regime where tipping points matter is an empirical question the model can't answer by itself. But asking the question formally, with equations that make assumptions explicit, is more productive than the usual rhetorical arguments in either direction.
