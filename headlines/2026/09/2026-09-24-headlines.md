@@ -1,0 +1,7 @@
+# AI Headlines — 2026-09-24
+
+- [Claude Discovers a Novel Enzyme System with CRISPR-Like Repeats](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) — Anthropic's new Bay Area life sciences lab ran 950 agents for 21 hours and 210M tokens through 200,000 reverse transcriptases in phage genomes, identifying array-associated reverse transcriptases (ART): a three-component system with a CRISPR-like repeat array that expresses as distinct short RNAs, suggesting potential programmability for DNA operations. *(September 23, 2026)*
+
+- [Pentagon Investigators Say Overreliance on Palantir AI Contributed to Strike That Killed 123 Iranian Children](https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477) — An unreleased internal Pentagon probe found three compounding failures in the February 28 Minab school strike: a 2003-vintage database label, Maven Smart System users expecting it to catch data discrepancies it wasn't designed to flag, and Centcom's civilian harm team reduced from 10 people to one. *(September 20–22, 2026)*
+
+- [LensVLM: Apple Releases 9B VLM That Reads Compressed Document Images and Expands Only Relevant Pages](https://huggingface.co/apple/LensVLM-9B) — Built on Qwen3.5-9B, LensVLM scans documents rendered at 5×–15× compression as images, then uses learned tools to selectively decompress only the pages needed to answer a query; HN discussion resurfaces the May 2026 release. *(May 7, 2026; HN discussion September 24, 2026)*
