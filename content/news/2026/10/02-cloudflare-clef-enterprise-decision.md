@@ -15,7 +15,7 @@ params:
     cloud infrastructure beats the increasingly capable self-hosted alternatives.
 ---
 
-Over the past few weeks, the community has been quietly assembling a decision model stack. [Jev](https://ai-beat.github.io/news/2026/09/19/jev-agent-decision-layer/) defined the classification interface. [Ollaya](https://ai-beat.github.io/news/2026/09/26/ollaya-local-decision-models/) packaged Jev-compatible models for local deployment. [Jeff](https://ai-beat.github.io/news/2026/09/29/jeff-decision-model-calibration/) showed you could train them at home on a single GPU, hitting Jev-level accuracy at 2B parameters in a few hours of fine-tuning.
+Over the past few weeks, the community has been quietly assembling a decision model stack. [Jev](https://ai-beat.github.io/news/2026/09/jev-agent-decision-layer/) defined the classification interface. [Ollaya](https://ai-beat.github.io/news/2026/09/ollaya-local-decision-models/) packaged Jev-compatible models for local deployment. [Jeff](https://ai-beat.github.io/news/2026/09/jeff-decision-model-calibration/) showed you could train them at home on a single GPU, hitting Jev-level accuracy at 2B parameters in a few hours of fine-tuning.
 
 Now Cloudflare is entering the space with [Clef](https://blog.cloudflare.com/clef-decision-models/), and the release is interesting for what it says about where the category is heading.
 
