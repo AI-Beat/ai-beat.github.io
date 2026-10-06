@@ -1,0 +1,7 @@
+# AI Headlines — 2026-10-06
+
+- [Beam: Reflection's 501B Open-Weight Model](https://reflection.ai/blog/introducing-beam) — Reflection AI announces its first model: a 501B MoE with 23B active parameters, 1M context, trained with 100M RL rollouts across 1.3B sandbox environments on 10.5K GB300 GPUs; AIME 2026 97.8, SWE-Bench Pro v2-Hard 77.2; Apache 2.0 weights and technical report coming later in October. *(October 5, 2026)*
+
+- [Dust: Pretraining Transformers Without Backpropagation](https://qlabs.sh/research/dust) — Q Labs Research proposes activation-space perturbation where each token serves as a "virtual population member" in a zeroth-order optimizer; a single forward pass evaluates all perturbations, achieving 10³–10⁴× better efficiency than weight-space evolution strategies; at larger token budgets approaches backprop performance, with gradient alignment improving predictably. *(October 2026)*
+
+- [Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates](https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors) — A team of Claude Opus 5.5 agents running DFT simulations (PBE+U and HSE06) identified YBaMnFeO₅ (novel, ~2.35 eV gap, stable to ~490 K) and KV[Cr(CN)₆] (synthesized 1999 but unrecognized, experimentally confirmed order to 376 K) as candidate antiferromagnetic semiconductors for spintronics; code and calculations published. *(October 4, 2026)*
