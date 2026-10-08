@@ -1,0 +1,5 @@
+# AI Headlines — 2026-10-08
+
+- [OpenAI releases 372 math results; Terence Tao calls for "Math 2.0"](https://openai.com/index/sharing-ai-progress-in-mathematics/) — OpenAI posted AI-generated full or partial solutions to 372 open math problems on GitHub, many Lean-verified, including a claimed 4D Kakeya conjecture solution and progress on three Millennium Prize problems; Tao argues this ends "Math 1.0" (raw problem-solving as mathematics' engine) and calls for a shift toward exposition and community over velocity; MIT's Sutherland says "we should ask for receipts." *(October 7–8, 2026)*
+
+- [Fine-Tuning a 3B-Parameter LLM on a Smartphone: Characterizing Sustained Training](https://arxiv.org/abs/2610.06325) — Geyko, Mosbach, Brinkmann show an iPhone 17 Pro can fine-tune a 3B LLM within one battery charge with adapter quality matching server training; found and fixed a broken, never-dispatched backward-pass kernel in Apple's MLX yielding 1.47x speedup and ~33% energy reduction; thermal throttling cuts throughput by ~50% and resists burst-schedule mitigations. *(October 5, 2026)*
