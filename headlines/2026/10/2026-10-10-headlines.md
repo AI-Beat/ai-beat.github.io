@@ -1,0 +1,5 @@
+# AI Headlines — 2026-10-10
+
+- [What mathematicians should know about the Lean Theorem Prover: reliability & AI](https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/) — Thomas Hales writes on Tao's blog about how much trust formal proofs can carry in the AI era; describes the "Summer of Soundness Bugs" when AI security tools found kernel flaws that let fabricated proofs slip through Lean, including an accepted Lean "disproof" of the Collatz conjecture; proposes multiple independent kernels and Breitner's Con-Leche verified checker as mitigations. *(October 9, 2026)*
+
+- [Rewriting Prime Agent in Rust](https://www.primeintellect.ai/blog/prime-agent-rust) — Prime Intellect rebuilt its open-source agent harness from TypeScript to Rust using ~2,000 AI agents across 10,000+ sandboxes; process used a root orchestrator, per-task planners/implementers/adversarial reviewers/verifiers; result is 13x faster startup, 5.7x less memory, 9-crate architecture with session isolation; the agent infrastructure rebuilt itself. *(October 9, 2026)*
