@@ -1,0 +1,9 @@
+# AI Headlines — 2026-10-12
+
+- [MASS: Recursive Self-Improvement via Multi-Agent Self-Supervision](https://arxiv.org/abs/2610.12176) — UC Berkeley and Sakana AI paper proposes a cycle of evolutionary workflow search, self-evaluation, and LoRA fine-tuning on the model's own best multi-agent traces (with workflow text removed during training); over two MASS cycles from Qwen3.6-27B, win rate vs. base rose from 53.9% to 69.9% and performance per output token improved 1.2–1.6× on open-ended research benchmarks. *(October 8, 2026)*
+
+- [Microsoft Execution Containers — Generally Available](https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/) — Cross-platform, policy-driven OS-level containment for AI agent workloads; developers declare filesystem, network, and process constraints in JSON outside the agent's control; four isolation modes (process container, session container, WSL container, experimental MicroVM); available on Windows 11, macOS, and Linux. *(October 7, 2026)*
+
+- [The gap in shared understanding of LLM capability is widening (Karpathy)](https://twitter.com/karpathy/status/2109361546505966046) — Karpathy argues that the ability to get useful work from frontier models is diverging rapidly between practitioners who understand model capabilities deeply and those who don't, raising questions about how AI tools should be designed for different expertise levels. *(October 12, 2026)*
+
+- [Pensieve: Local Indexing for AI Agent Context](https://tedhaley.ca/pensieve/) — Open-source macOS app (Apple Silicon) that semantically indexes files, git repos, Claude Code/Codex/Qwen Code sessions, and Obsidian vaults on-device; agents connect via MCP; vendor benchmark shows 131/144 correct-file hits vs 123 with grep, and 43% fewer tool calls per lookup. *(October 2026)*
