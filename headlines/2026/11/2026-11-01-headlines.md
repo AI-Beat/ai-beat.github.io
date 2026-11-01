@@ -1,0 +1,7 @@
+# AI Headlines — 2026-11-01
+
+- [Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard](https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve) — An open-source reimplementation of the GVS5H paper's ledger-based multi-agent protocol scores 9.8/10 on the first ten LiveCodeBench Hard problems (49/50 solved, median $0.39/problem), matching or exceeding Fable 5's 8.0/10 at ~9% of the cost; caveats include small sample size, possible contamination, and two documented coordination failure modes. *(October 31, 2026)*
+
+- [Appraisal by AI: Model-Driven Victim Prioritization in the Volta Infostealer](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/) — Cisco Talos documents an infostealer that routes stolen victim profiles to an OpenRouter LLM ("forensic intelligence analyst") for monetization ranking, with a three-model refusal-bypass fallback chain (Claude → Kimi → Gemini); Talos frames the AI layer as effort displacement for human operators. *(October 31, 2026)*
+
+- [Show HN: A language model that lives in a boot sector](https://github.com/kerlenton/bootgpt) — A character-level LM runs during boot in 16-bit real mode on a 386, fitting the entire inference engine and BIOS I/O in 510 bytes; weights (11.5 KB, int8 quantized) live in the next 23 disk sectors, and the model generates synthetic Linux boot logs until a keypress reboots. *(October 31, 2026)*
